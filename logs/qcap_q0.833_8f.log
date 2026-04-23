@@ -1,0 +1,91 @@
+[qcap_q0.833_8f] folds=['cv0', 'cv1', 'cv2', 'cv3', 'cv4', 'cv5', 'cv6', 'cv7'] val=True q=0.833 mult=1.0 w_ma=0.329
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+    [qcap] fitting point forecaster (5 models)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] point forecaster done
+    [qcap] fitting quantile forecaster (5 models @ alpha=0.833)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [qcap] quantile forecaster done.
+
+=== qcap_q0.833_8f ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,319.00      3,020.00       3,299.00    5.16     0.59    -2.14              3.29
+cv1           3,612.80      2,258.80       1,354.00    4.88     0.55    -3.66              3.66
+cv2           3,893.80      2,019.80       1,874.00    5.80     0.55    -4.88              4.53
+cv3           3,363.40      2,399.40         964.00    4.35     0.49    -2.96              3.16
+cv4           3,336.20      2,240.20       1,096.00    4.79     0.53    -3.31              3.50
+cv5           3,408.20      2,341.20       1,067.00    5.37     0.59    -3.62              3.89
+cv6           7,502.40      3,471.40       4,031.00    8.96     0.61    -6.00              6.48
+cv7           3,517.00      2,463.00       1,054.00    4.79     0.57    -3.00              3.39
+  MEAN  competition_cost = 4,369.10  (holding=2,526.72, shortage=1,842.38)
+  MEAN  forecast MAE=5.51  WAPE=0.559  bias=-3.70  pinball@0.833=3.986
+  VAL   competition_cost = 3,058.80  (holding=2,619.80, shortage=439.00)
+  VAL   forecast MAE=4.15  WAPE=0.530  bias=-2.39  pinball@0.833=2.869
+
+[qcap_q0.833_8f] wall-time: 463.0s

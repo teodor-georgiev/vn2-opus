@@ -1,0 +1,72 @@
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[rl] device=cuda
+[rl] loading data...
+[rl] building train episodes (8-fold CV starts)...
+  building episode at window_start=85...
+  building episode at window_start=93...
+  building episode at window_start=101...
+  building episode at window_start=109...
+  building episode at window_start=117...
+  building episode at window_start=125...
+  building episode at window_start=133...
+  building episode at window_start=141...
+[rl] building val episode (window_start=149)...
+  building episode at window_start=149...
+[rl] iter 0 (init policy): VAL=3,385.00
+[rl] iter   1  train_cost~6825  VAL=3,349.80  loss_pi=-0.002 loss_v=0.011 entropy=+1.837
+[rl] -> new best VAL=3349.80, saved -> rl_best.pt
+[rl] iter   2  train_cost~6817  VAL=3,344.20  loss_pi=-0.002 loss_v=0.003 entropy=+1.836
+[rl] -> new best VAL=3344.20, saved -> rl_best.pt
+[rl] iter   4  train_cost~6292  VAL=3,380.20  loss_pi=-0.002 loss_v=0.002 entropy=+1.845
+[rl] iter   6  train_cost~5791  VAL=3,455.60  loss_pi=-0.001 loss_v=0.001 entropy=+1.855
+[rl] iter   8  train_cost~5980  VAL=3,501.40  loss_pi=+0.001 loss_v=0.001 entropy=+1.865
+[rl] iter  10  train_cost~5982  VAL=3,560.20  loss_pi=+0.000 loss_v=0.001 entropy=+1.875
+[rl] iter  12  train_cost~5963  VAL=3,578.60  loss_pi=-0.000 loss_v=0.001 entropy=+1.881
+[rl] iter  14  train_cost~6289  VAL=3,625.40  loss_pi=-0.001 loss_v=0.001 entropy=+1.895
+[rl] iter  16  train_cost~5539  VAL=3,693.80  loss_pi=-0.000 loss_v=0.000 entropy=+1.911
+[rl] iter  18  train_cost~5513  VAL=3,694.60  loss_pi=+0.000 loss_v=0.001 entropy=+1.926
+[rl] iter  20  train_cost~5347  VAL=3,767.40  loss_pi=+0.001 loss_v=0.001 entropy=+1.933
+[rl] iter  22  train_cost~5770  VAL=3,851.80  loss_pi=-0.000 loss_v=0.001 entropy=+1.938
+[rl] iter  24  train_cost~6278  VAL=3,909.20  loss_pi=+0.000 loss_v=0.001 entropy=+1.939
+[rl] iter  26  train_cost~6521  VAL=3,972.60  loss_pi=-0.001 loss_v=0.002 entropy=+1.940
+[rl] iter  28  train_cost~6546  VAL=4,064.80  loss_pi=-0.001 loss_v=0.001 entropy=+1.948
+[rl] iter  30  train_cost~6783  VAL=4,149.80  loss_pi=-0.001 loss_v=0.001 entropy=+1.959
+[rl] iter  32  train_cost~6547  VAL=4,217.00  loss_pi=-0.003 loss_v=0.001 entropy=+1.966
+[rl] early stop at iter 32 (no improvement in 15 evals)
+
+[rl] DONE. best VAL = 3,344.20  (vs CostAware-baseline VAL=2,593)

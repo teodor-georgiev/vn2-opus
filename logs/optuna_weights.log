@@ -1,0 +1,251 @@
+[I 2026-04-21 16:13:52,919] A new study created in memory with name: no-name-771e59c5-2366-4f06-80c8-780cb6cbd360
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:06,573] Trial 0 finished with value: 3689.0000000000005 and parameters: {'w_ma': 0.2621780831931537, 'w_lgb_share': 0.9507143064099162, 'multiplier': 1.1329984854528512, 'safety_units': 0.7959754525911098}. Best is trial 0 with value: 3689.0000000000005.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:16,813] Trial 1 finished with value: 3798.3500000000004 and parameters: {'w_ma': 0.10921304830970556, 'w_lgb_share': 0.15599452033620265, 'multiplier': 0.9645209030420498, 'safety_units': 1.5985284373248057}. Best is trial 0 with value: 3689.0000000000005.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:26,530] Trial 2 finished with value: 3885.4500000000003 and parameters: {'w_ma': 0.42078050822024615, 'w_lgb_share': 0.7080725777960455, 'multiplier': 0.9551461235739506, 'safety_units': 1.909729556485983}. Best is trial 0 with value: 3689.0000000000005.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:36,372] Trial 3 finished with value: 3939.4000000000005 and parameters: {'w_ma': 0.5827098485602952, 'w_lgb_share': 0.21233911067827616, 'multiplier': 0.9954562418017752, 'safety_units': -0.44978647043969855}. Best is trial 0 with value: 3689.0000000000005.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:47,467] Trial 4 finished with value: 3667.7000000000003 and parameters: {'w_ma': 0.21296957007167638, 'w_lgb_share': 0.5247564316322378, 'multiplier': 1.057986254660529, 'safety_units': -0.12631257940587426}. Best is trial 4 with value: 3667.7000000000003.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:14:56,315] Trial 5 finished with value: 3696.5 and parameters: {'w_ma': 0.42829702630566563, 'w_lgb_share': 0.13949386065204183, 'multiplier': 1.0230361621338044, 'safety_units': 0.09908552988107511}. Best is trial 4 with value: 3667.7000000000003.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:06,516] Trial 6 finished with value: 3654.3500000000004 and parameters: {'w_ma': 0.3192489889519251, 'w_lgb_share': 0.7851759613930136, 'multiplier': 0.9999184455395899, 'safety_units': 0.5427033152408347}. Best is trial 6 with value: 3654.3500000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:17,787] Trial 7 finished with value: 3761.7 and parameters: {'w_ma': 0.4146901982034297, 'w_lgb_share': 0.046450412719997725, 'multiplier': 1.1018862129753595, 'safety_units': -0.4884276289381254}. Best is trial 6 with value: 3654.3500000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:27,760] Trial 8 finished with value: 3971.55 and parameters: {'w_ma': 0.045536115089695656, 'w_lgb_share': 0.9488855372533332, 'multiplier': 1.1914080082686398, 'safety_units': 1.4251920443493833}. Best is trial 6 with value: 3654.3500000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:38,143] Trial 9 finished with value: 3646.7000000000003 and parameters: {'w_ma': 0.21322963842135947, 'w_lgb_share': 0.09767211400638387, 'multiplier': 1.1210582566280392, 'safety_units': 0.3204574812188039}. Best is trial 9 with value: 3646.7000000000003.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:48,587] Trial 10 finished with value: 3934.9 and parameters: {'w_ma': 0.6615955809612704, 'w_lgb_share': 0.3637276736216311, 'multiplier': 1.1633680259423083, 'safety_units': -0.9461143731555399}. Best is trial 9 with value: 3646.7000000000003.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:15:59,672] Trial 11 finished with value: 3643.5499999999997 and parameters: {'w_ma': 0.26087868597142083, 'w_lgb_share': 0.6902470735691452, 'multiplier': 1.0675680371651297, 'safety_units': 0.7134470310302077}. Best is trial 11 with value: 3643.5499999999997.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:16:09,916] Trial 12 finished with value: 3678.9 and parameters: {'w_ma': 0.166336066764951, 'w_lgb_share': 0.527097314920531, 'multiplier': 1.0827832967625726, 'safety_units': 0.8523634189790632}. Best is trial 11 with value: 3643.5499999999997.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:16:22,823] Trial 13 finished with value: 3782.9 and parameters: {'w_ma': 0.029089399777558228, 'w_lgb_share': 0.36460559306946055, 'multiplier': 1.117771751212386, 'safety_units': 1.1388570901568076}. Best is trial 11 with value: 3643.5499999999997.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:16:34,150] Trial 14 finished with value: 3629.0499999999997 and parameters: {'w_ma': 0.3012810236834905, 'w_lgb_share': 0.6935547910049334, 'multiplier': 1.0502877057573896, 'safety_units': 0.20012317938922902}. Best is trial 14 with value: 3629.0499999999997.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:16:44,883] Trial 15 finished with value: 3626.6000000000004 and parameters: {'w_ma': 0.3460584170771118, 'w_lgb_share': 0.689536601120642, 'multiplier': 1.0417598103926322, 'safety_units': 0.48812393650914276}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:16:55,929] Trial 16 finished with value: 3735.3499999999995 and parameters: {'w_ma': 0.5403468086660497, 'w_lgb_share': 0.8127818668076588, 'multiplier': 1.0319292337016095, 'safety_units': -0.03757557113041021}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:17:07,635] Trial 17 finished with value: 3644.9000000000005 and parameters: {'w_ma': 0.3599560462212321, 'w_lgb_share': 0.6296495228667633, 'multiplier': 1.0385740260563143, 'safety_units': 0.25077382498250167}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:17:23,728] Trial 18 finished with value: 3861.55 and parameters: {'w_ma': 0.5255579303592823, 'w_lgb_share': 0.356085497164014, 'multiplier': 1.0013800694990553, 'safety_units': -0.32807882228594465}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:17:42,389] Trial 19 finished with value: 3916.75 and parameters: {'w_ma': 0.3415062445946214, 'w_lgb_share': 0.8174739347029446, 'multiplier': 1.0875594360140273, 'safety_units': -0.9380932639052413}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:17:56,638] Trial 20 finished with value: 3710.8500000000004 and parameters: {'w_ma': 0.12326851240202003, 'w_lgb_share': 0.6088988755261362, 'multiplier': 1.053241354078706, 'safety_units': 1.0682231794809711}. Best is trial 15 with value: 3626.6000000000004.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:18:11,214] Trial 21 finished with value: 3625.55 and parameters: {'w_ma': 0.28745440577764925, 'w_lgb_share': 0.6970577422304106, 'multiplier': 1.0730735561458948, 'safety_units': 0.5962400445213906}. Best is trial 21 with value: 3625.55.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:18:22,653] Trial 22 finished with value: 3638.1000000000004 and parameters: {'w_ma': 0.2947776190516028, 'w_lgb_share': 0.7394837233378322, 'multiplier': 1.0173414157214957, 'safety_units': 0.4779006259872284}. Best is trial 21 with value: 3625.55.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:18:37,448] Trial 23 finished with value: 3629.55 and parameters: {'w_ma': 0.3850599259526427, 'w_lgb_share': 0.8844483932708646, 'multiplier': 1.0508509799057608, 'safety_units': 0.4627030017431891}. Best is trial 21 with value: 3625.55.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+[I 2026-04-21 16:18:55,605] Trial 24 finished with value: 3710.7000000000007 and parameters: {'w_ma': 0.4661949345047218, 'w_lgb_share': 0.6259979248264682, 'multiplier': 1.0799757575046434, 'safety_units': 1.0468733136662347}. Best is trial 21 with value: 3625.55.
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:57: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+Running experiment: optuna_weights  kwargs={}
+Starting Optuna weight-search with 25 trials ...
+
+Best trial: CV mean = 3,625.55
+  w_ma: 0.2875
+  w_lgb_share: 0.6971
+  multiplier: 1.0731
+  safety_units: 0.5962
+
+Re-evaluating best on CV + VAL + SACRED ...
+  CV mean: 3,625.55
+  VAL    : 2,941.80
+  SACRED : 3,590.00

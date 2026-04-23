@@ -1,0 +1,110 @@
+[I 2026-04-21 15:00:45,333] A new study created in memory with name: no-name-d1d2e779-bdc1-4ed0-83a6-88e4dbe5e3e7
+Starting Optuna study with 20 trials ...
+[I 2026-04-21 15:00:57,927] Trial 0 finished with value: 3819.5 and parameters: {'lgb_n_estimators': 212, 'lgb_lr': 0.1358198535217987, 'lgb_num_leaves': 50, 'lgb_min_child_samples': 26, 'lgb_subsample': 0.6624074561769746, 'lgb_colsample': 0.662397808134481, 'lgb_reg_alpha': 0.05808361216819946, 'lgb_reg_lambda': 0.8661761457749352, 'cb_iterations': 280, 'cb_lr': 0.08329844231669226, 'cb_depth': 4, 'cb_l2': 9.72918866945795}. Best is trial 0 with value: 3819.5.
+[I 2026-04-21 15:01:08,240] Trial 1 finished with value: 3744.55 and parameters: {'lgb_n_estimators': 350, 'lgb_lr': 0.030678895924589226, 'lgb_num_leaves': 23, 'lgb_min_child_samples': 11, 'lgb_subsample': 0.7216968971838151, 'lgb_colsample': 0.8099025726528951, 'lgb_reg_alpha': 0.43194501864211576, 'lgb_reg_lambda': 0.2912291401980419, 'cb_iterations': 284, 'cb_lr': 0.02649083634077794, 'cb_depth': 5, 'cb_l2': 4.297256589643226}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:01:23,412] Trial 2 finished with value: 3796.45 and parameters: {'lgb_n_estimators': 237, 'lgb_lr': 0.09729870597990298, 'lgb_num_leaves': 24, 'lgb_min_child_samples': 23, 'lgb_subsample': 0.836965827544817, 'lgb_colsample': 0.6185801650879991, 'lgb_reg_alpha': 0.6075448519014384, 'lgb_reg_lambda': 0.17052412368729153, 'cb_iterations': 119, 'cb_lr': 0.13532030647336643, 'cb_depth': 9, 'cb_l2': 8.275576133048151}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:01:31,698] Trial 3 finished with value: 3770.2 and parameters: {'lgb_n_estimators': 191, 'lgb_lr': 0.02435000636897718, 'lgb_num_leaves': 48, 'lgb_min_child_samples': 20, 'lgb_subsample': 0.6488152939379115, 'lgb_colsample': 0.798070764044508, 'lgb_reg_alpha': 0.034388521115218396, 'lgb_reg_lambda': 0.9093204020787821, 'cb_iterations': 177, 'cb_lr': 0.07599369873560621, 'cb_depth': 5, 'cb_l2': 5.680612190600297}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:01:42,331] Trial 4 finished with value: 3770.1 and parameters: {'lgb_n_estimators': 264, 'lgb_lr': 0.02902611884153732, 'lgb_num_leaves': 62, 'lgb_min_child_samples': 32, 'lgb_subsample': 0.9757995766256756, 'lgb_colsample': 0.9579309401710595, 'lgb_reg_alpha': 0.5978999788110851, 'lgb_reg_lambda': 0.9218742350231168, 'cb_iterations': 126, 'cb_lr': 0.029684313313571024, 'cb_depth': 4, 'cb_l2': 3.927972976869379}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:01:54,946] Trial 5 finished with value: 3780.2500000000005 and parameters: {'lgb_n_estimators': 216, 'lgb_lr': 0.03455230480658175, 'lgb_num_leaves': 55, 'lgb_min_child_samples': 17, 'lgb_subsample': 0.7123738038749523, 'lgb_colsample': 0.8170784332632994, 'lgb_reg_alpha': 0.14092422497476265, 'lgb_reg_lambda': 0.8021969807540397, 'cb_iterations': 122, 'cb_lr': 0.14608866662799525, 'cb_depth': 8, 'cb_l2': 2.7884411338075514}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:02:05,326] Trial 6 finished with value: 3793.6000000000004 and parameters: {'lgb_n_estimators': 101, 'lgb_lr': 0.10342099303484481, 'lgb_num_leaves': 49, 'lgb_min_child_samples': 31, 'lgb_subsample': 0.9085081386743783, 'lgb_colsample': 0.6296178606936361, 'lgb_reg_alpha': 0.3584657285442726, 'lgb_reg_lambda': 0.11586905952512971, 'cb_iterations': 359, 'cb_lr': 0.07021890326042347, 'cb_depth': 5, 'cb_l2': 1.5720251525742128}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:02:43,028] Trial 7 finished with value: 3748.1500000000005 and parameters: {'lgb_n_estimators': 193, 'lgb_lr': 0.03851104685115368, 'lgb_num_leaves': 50, 'lgb_min_child_samples': 27, 'lgb_subsample': 0.9548850970305306, 'lgb_colsample': 0.7888859700647797, 'lgb_reg_alpha': 0.1195942459383017, 'lgb_reg_lambda': 0.713244787222995, 'cb_iterations': 328, 'cb_lr': 0.06197006180421462, 'cb_depth': 8, 'cb_l2': 5.444160367279517}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:03:05,117] Trial 8 finished with value: 3748.2500000000005 and parameters: {'lgb_n_estimators': 257, 'lgb_lr': 0.0473319698650522, 'lgb_num_leaves': 16, 'lgb_min_child_samples': 8, 'lgb_subsample': 0.6125716742746937, 'lgb_colsample': 0.8545641645055122, 'lgb_reg_alpha': 0.3143559810763267, 'lgb_reg_lambda': 0.5085706911647028, 'cb_iterations': 373, 'cb_lr': 0.033050342821696894, 'cb_depth': 6, 'cb_l2': 7.799960246887438}. Best is trial 1 with value: 3744.55.
+[I 2026-04-21 15:03:39,365] Trial 9 finished with value: 3705.7999999999997 and parameters: {'lgb_n_estimators': 168, 'lgb_lr': 0.02335565937782791, 'lgb_num_leaves': 29, 'lgb_min_child_samples': 10, 'lgb_subsample': 0.9718790609370292, 'lgb_colsample': 0.9232481518257668, 'lgb_reg_alpha': 0.6334037565104235, 'lgb_reg_lambda': 0.8714605901877177, 'cb_iterations': 341, 'cb_lr': 0.029126629206623567, 'cb_depth': 9, 'cb_l2': 5.854080177240856}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:04:02,049] Trial 10 finished with value: 3797.3500000000004 and parameters: {'lgb_n_estimators': 107, 'lgb_lr': 0.020243140908510808, 'lgb_num_leaves': 36, 'lgb_min_child_samples': 38, 'lgb_subsample': 0.8560354009870224, 'lgb_colsample': 0.9630659181130071, 'lgb_reg_alpha': 0.946974732984537, 'lgb_reg_lambda': 0.6222354740165085, 'cb_iterations': 218, 'cb_lr': 0.02050232073447608, 'cb_depth': 9, 'cb_l2': 6.55709025693719}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:04:17,902] Trial 11 finished with value: 3743.0 and parameters: {'lgb_n_estimators': 377, 'lgb_lr': 0.05884831616837426, 'lgb_num_leaves': 31, 'lgb_min_child_samples': 5, 'lgb_subsample': 0.7708449222533327, 'lgb_colsample': 0.8929950082865888, 'lgb_reg_alpha': 0.822464050600963, 'lgb_reg_lambda': 0.28416990337125597, 'cb_iterations': 296, 'cb_lr': 0.03824687783116986, 'cb_depth': 7, 'cb_l2': 4.180565244942645}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:04:34,657] Trial 12 finished with value: 3783.1499999999996 and parameters: {'lgb_n_estimators': 396, 'lgb_lr': 0.06925442990929838, 'lgb_num_leaves': 34, 'lgb_min_child_samples': 5, 'lgb_subsample': 0.7619861371039023, 'lgb_colsample': 0.8966799748412151, 'lgb_reg_alpha': 0.8409906026213435, 'lgb_reg_lambda': 0.34553044525276355, 'cb_iterations': 318, 'cb_lr': 0.042341774852010045, 'cb_depth': 7, 'cb_l2': 4.076270977490077}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:04:48,369] Trial 13 finished with value: 3777.0 and parameters: {'lgb_n_estimators': 314, 'lgb_lr': 0.0586017332251404, 'lgb_num_leaves': 32, 'lgb_min_child_samples': 13, 'lgb_subsample': 0.7985823347372819, 'lgb_colsample': 0.9006453699263156, 'lgb_reg_alpha': 0.7681253965753077, 'lgb_reg_lambda': 0.399980699383715, 'cb_iterations': 238, 'cb_lr': 0.044402655705871104, 'cb_depth': 7, 'cb_l2': 1.104135973530353}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:05:13,017] Trial 14 finished with value: 3726.9500000000003 and parameters: {'lgb_n_estimators': 149, 'lgb_lr': 0.0726848011457174, 'lgb_num_leaves': 28, 'lgb_min_child_samples': 15, 'lgb_subsample': 0.9044243675990947, 'lgb_colsample': 0.9909065862380312, 'lgb_reg_alpha': 0.7102823854784931, 'lgb_reg_lambda': 0.020913566483403923, 'cb_iterations': 392, 'cb_lr': 0.04287293995747528, 'cb_depth': 8, 'cb_l2': 6.297628793946485}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:05:37,739] Trial 15 finished with value: 3737.55 and parameters: {'lgb_n_estimators': 149, 'lgb_lr': 0.08315119395020942, 'lgb_num_leaves': 42, 'lgb_min_child_samples': 15, 'lgb_subsample': 0.9105872248667033, 'lgb_colsample': 0.9901910947756647, 'lgb_reg_alpha': 0.6380622567361978, 'lgb_reg_lambda': 0.010821265807511988, 'cb_iterations': 400, 'cb_lr': 0.023598088041517185, 'cb_depth': 8, 'cb_l2': 7.041132706154968}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:06:20,535] Trial 16 finished with value: 3745.0 and parameters: {'lgb_n_estimators': 153, 'lgb_lr': 0.04290614669687969, 'lgb_num_leaves': 25, 'lgb_min_child_samples': 19, 'lgb_subsample': 0.9191355748235909, 'lgb_colsample': 0.7198196242694066, 'lgb_reg_alpha': 0.7046281826489895, 'lgb_reg_lambda': 0.5942649566299323, 'cb_iterations': 396, 'cb_lr': 0.051584363589875996, 'cb_depth': 9, 'cb_l2': 5.705588355371964}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:06:40,847] Trial 17 finished with value: 3766.9 and parameters: {'lgb_n_estimators': 143, 'lgb_lr': 0.1358909290281143, 'lgb_num_leaves': 15, 'lgb_min_child_samples': 10, 'lgb_subsample': 0.9992695889646795, 'lgb_colsample': 0.9960841448431941, 'lgb_reg_alpha': 0.5003766043216399, 'lgb_reg_lambda': 0.9935262032061056, 'cb_iterations': 339, 'cb_lr': 0.09791186787548124, 'cb_depth': 8, 'cb_l2': 9.131580117017279}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:07:16,337] Trial 18 finished with value: 3717.7500000000005 and parameters: {'lgb_n_estimators': 170, 'lgb_lr': 0.07518940205422697, 'lgb_num_leaves': 40, 'lgb_min_child_samples': 15, 'lgb_subsample': 0.8613857949560015, 'lgb_colsample': 0.9460899231669442, 'lgb_reg_alpha': 0.9585999907324432, 'lgb_reg_lambda': 0.7002878332497944, 'cb_iterations': 360, 'cb_lr': 0.032839023840014185, 'cb_depth': 9, 'cb_l2': 6.806058961582717}. Best is trial 9 with value: 3705.7999999999997.
+[I 2026-04-21 15:08:02,866] Trial 19 finished with value: 3718.65 and parameters: {'lgb_n_estimators': 298, 'lgb_lr': 0.05162509754108405, 'lgb_num_leaves': 41, 'lgb_min_child_samples': 8, 'lgb_subsample': 0.8568742034312226, 'lgb_colsample': 0.9404052868155783, 'lgb_reg_alpha': 0.967551675805818, 'lgb_reg_lambda': 0.7284191629393656, 'cb_iterations': 354, 'cb_lr': 0.03527006519201079, 'cb_depth': 9, 'cb_l2': 7.6091510241394475}. Best is trial 9 with value: 3705.7999999999997.
+
+Best trial:
+  value (CV mean comp_cost): 3,705.80
+  lgb_n_estimators: 168
+  lgb_lr: 0.02335565937782791
+  lgb_num_leaves: 29
+  lgb_min_child_samples: 10
+  lgb_subsample: 0.9718790609370292
+  lgb_colsample: 0.9232481518257668
+  lgb_reg_alpha: 0.6334037565104235
+  lgb_reg_lambda: 0.8714605901877177
+  cb_iterations: 341
+  cb_lr: 0.029126629206623567
+  cb_depth: 9
+  cb_l2: 5.854080177240856
+
+Re-evaluating best params on CV + VAL + sacred ...
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\externals\loky\process_executor.py", line 490, in _process_worker
+    r = call_item()
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\externals\loky\process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 607, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+            ~~~~^^^^^^^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 177, in _run_one_window
+    res = run_window(
+        full_sales=full_sales,
+    ...<4 lines>...
+        policy_fn=wrapper,
+    )
+  File "J:\Toni\Vibing\VN2_Opus\simulation.py", line 260, in run_window
+    return sim.run_simulation(policy_fn)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\simulation.py", line 160, in run_simulation
+    order = order_policy_fn(self, round_idx, sales_hist)
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 95, in __call__
+    order = self.inner(sim, round_idx, sales_hist)
+  File "J:\Toni\Vibing\VN2_Opus\policies.py", line 89, in __call__
+    self._fit(sales_hist, sim.in_stock)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\policies.py", line 81, in _fit
+    self._forecaster.fit(sales_hist, in_stock)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\forecaster.py", line 100, in fit
+    self.build_model()
+    ~~~~~~~~~~~~~~~~^^
+  File "J:\Toni\Vibing\VN2_Opus\forecaster.py", line 71, in build_model
+    cb_model = cb.CatBoostRegressor(**cb_defaults)
+TypeError: CatBoostRegressor.__init__() got an unexpected keyword argument 'lr'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "J:\Toni\Vibing\VN2_Opus\run_optuna.py", line 122, in <module>
+    main()
+    ~~~~^^
+  File "J:\Toni\Vibing\VN2_Opus\run_optuna.py", line 96, in main
+    res = score_policy_on_folds(
+        policy_factory=make_factory(master, lgb_params, cb_params),
+        full_sales=full_sales, full_in_stock=full_in_stock, master=master,
+        coverage_weeks=2, alpha=None, n_workers=N, include_val=True,
+    )
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 221, in score_policy_on_folds
+    outs = Parallel(n_jobs=n_workers, backend="loky")(
+        delayed(_run_one_window)(args) for _, args in tasks
+    )
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 2072, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 1682, in _get_outputs
+    yield from self._retrieve()
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 1784, in _retrieve
+    self._raise_error_fast()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 1859, in _raise_error_fast
+    error_job.get_result(self.timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 758, in get_result
+    return self._return_or_raise()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\joblib\parallel.py", line 773, in _return_or_raise
+    raise self._result
+TypeError: CatBoostRegressor.__init__() got an unexpected keyword argument 'lr'

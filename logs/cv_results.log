@@ -1,0 +1,59 @@
+Loading data...
+  full_sales shape: (599, 165)  (history columns: 157, hidden competition: 8)
+
+Running: Seasonal Benchmark (4wk cov)
+
+=== Seasonal Benchmark (4wk cov) ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,711.60      4,917.60         794.00    5.16     0.43    -1.00
+cv1           5,517.80      4,909.80         608.00    4.39     0.38     0.27
+cv2           6,373.60      5,952.60         421.00    5.77     0.45     0.34
+cv3           5,727.80      5,330.80         397.00    3.99     0.35     0.26
+  MEAN  competition_cost = 5,832.70  (holding=5,277.70, shortage=555.00)
+  MEAN  forecast MAE=4.83  WAPE=0.402  bias=-0.03
+  VAL   competition_cost = 5,285.60  (holding=5,000.60, shortage=285.00)
+  VAL   forecast MAE=4.05  WAPE=0.374  bias=+0.15
+
+Running: ML Point (LGB+CB, 3wk cov)
+
+=== ML Point (LGB+CB, 3wk cov) ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,020.80      3,790.80       1,230.00    4.30     0.49     0.83
+cv1           4,183.60      3,162.60       1,021.00    3.83     0.43     0.58
+cv2           4,222.60      3,253.60         969.00    3.90     0.43     0.23
+cv3           4,158.80      3,241.80         917.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,396.45  (holding=3,362.20, shortage=1,034.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,084.40  (holding=3,637.40, shortage=447.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: Quantile (LGB+CB, alpha=0.833, 3wk cov)
+
+=== Quantile (LGB+CB, alpha=0.833, 3wk cov) ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           9,946.20      9,861.20          85.00   10.37     1.17     9.83              1.91
+cv1           9,959.20      9,870.20          89.00   10.75     1.22    10.47              1.89
+cv2           9,978.00      9,892.00          86.00   10.63     1.16    10.00              1.99
+cv3           9,548.60      9,483.60          65.00   10.01     1.18     9.61              1.80
+  MEAN  competition_cost = 9,858.00  (holding=9,776.75, shortage=81.25)
+  MEAN  forecast MAE=10.44  WAPE=1.185  bias=+9.98  pinball@0.833=1.897
+  VAL   competition_cost = 10,210.20  (holding=10,197.20, shortage=13.00)
+  VAL   forecast MAE=10.95  WAPE=1.401  bias=+10.88  pinball@0.833=1.850
+
+
+==============================================================================
+  SUMMARY — CV mean competition_cost + forecast accuracy
+==============================================================================
+  Policy                                        CV mean        VAL      MAE   WAPE
+  --------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "J:\Toni\Vibing\VN2_Opus\run_cv.py", line 77, in <module>
+    main()
+    ~~~~^^
+  File "J:\Toni\Vibing\VN2_Opus\run_cv.py", line 60, in main
+    for name, _ in experiments:
+        ^^^^^^^
+ValueError: too many values to unpack (expected 2)

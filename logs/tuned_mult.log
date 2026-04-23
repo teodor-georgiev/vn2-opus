@@ -1,0 +1,448 @@
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:242: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  mask = ~in_stock_wide.reindex_like(y).fillna(True)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+Tuned ensemble cfg: {'coverage_weeks': 2, 'w_ma': 0.2875, 'w_lgb_share': 0.6971, 'censoring_strategy': 'mean_impute', 'per_series_scaling': True, 'demand_cluster_k': 8, 'extended_features': False, 'direct_forecast': False, 'recency_decay': None, 'categorical_features': False, 'intermittency_features': False, 'w_stats': 0.0, 'random_state': 42}
+
+>>> cap2_8f_TUNED_a0.7_m0.95
+
+=== cap2_8f_TUNED_a0.7_m0.95 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,218.20      1,612.20       4,606.00    5.88     0.67    -5.03              3.70
+cv1           3,810.40      1,332.40       2,478.00    6.38     0.72    -6.06              4.04
+cv2           4,443.40      1,105.40       3,338.00    7.68     0.73    -7.47              5.00
+cv3           3,325.20      1,575.20       1,750.00    5.97     0.68    -5.75              3.45
+cv4           3,137.80      1,194.80       1,943.00    6.25     0.69    -5.91              3.88
+cv5           3,265.80      1,394.80       1,871.00    6.57     0.72    -6.15              4.05
+cv6           7,281.00      2,332.00       4,949.00   10.28     0.69    -9.20              6.55
+cv7           3,337.60      1,527.60       1,810.00    5.81     0.69    -5.40              3.67
+  MEAN  competition_cost = 4,352.43  (holding=1,509.30, shortage=2,843.12)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.292
+  VAL   competition_cost = 2,616.20  (holding=1,413.20, shortage=1,203.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.413
+[cap2_8f_TUNED_a0.7_m0.95] wall-time: 45.4s
+
+>>> cap2_8f_TUNED_a0.7_m1.0
+
+=== cap2_8f_TUNED_a0.7_m1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,132.40      1,713.40       4,419.00    5.88     0.67    -5.03              3.60
+cv1           3,774.60      1,424.60       2,350.00    6.38     0.72    -6.06              3.94
+cv2           4,341.40      1,188.40       3,153.00    7.68     0.73    -7.47              4.89
+cv3           3,329.60      1,704.60       1,625.00    5.97     0.68    -5.75              3.33
+cv4           3,074.60      1,289.60       1,785.00    6.25     0.69    -5.91              3.77
+cv5           3,226.40      1,496.40       1,730.00    6.57     0.72    -6.15              3.94
+cv6           7,167.60      2,490.60       4,677.00   10.28     0.69    -9.20              6.40
+cv7           3,321.00      1,635.00       1,686.00    5.81     0.69    -5.40              3.57
+  MEAN  competition_cost = 4,295.95  (holding=1,617.83, shortage=2,678.12)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.180
+  VAL   competition_cost = 2,611.40  (holding=1,512.40, shortage=1,099.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.320
+[cap2_8f_TUNED_a0.7_m1.0] wall-time: 45.7s
+
+>>> cap2_8f_TUNED_a0.7_m1.05
+
+=== cap2_8f_TUNED_a0.7_m1.05 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,051.60      1,817.60       4,234.00    5.88     0.67    -5.03              3.50
+cv1           3,740.40      1,518.40       2,222.00    6.38     0.72    -6.06              3.84
+cv2           4,275.00      1,277.00       2,998.00    7.68     0.73    -7.47              4.77
+cv3           3,360.40      1,828.40       1,532.00    5.97     0.68    -5.75              3.22
+cv4           3,040.20      1,389.20       1,651.00    6.25     0.69    -5.91              3.66
+cv5           3,198.20      1,592.20       1,606.00    6.57     0.72    -6.15              3.84
+cv6           7,089.20      2,651.20       4,438.00   10.28     0.69    -9.20              6.26
+cv7           3,318.00      1,743.00       1,575.00    5.81     0.69    -5.40              3.48
+  MEAN  competition_cost = 4,259.12  (holding=1,727.12, shortage=2,532.00)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.070
+  VAL   competition_cost = 2,629.00  (holding=1,613.00, shortage=1,016.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.229
+[cap2_8f_TUNED_a0.7_m1.05] wall-time: 48.4s
+
+>>> cap2_8f_TUNED_a0.75_m0.95
+
+=== cap2_8f_TUNED_a0.75_m0.95 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,155.20      1,713.20       4,442.00    5.88     0.67    -5.03              3.82
+cv1           3,777.80      1,458.80       2,319.00    6.38     0.72    -6.06              4.18
+cv2           4,389.40      1,212.40       3,177.00    7.68     0.73    -7.47              5.22
+cv3           3,394.60      1,825.60       1,569.00    5.97     0.68    -5.75              3.46
+cv4           3,075.40      1,325.40       1,750.00    6.25     0.69    -5.91              3.99
+cv5           3,266.00      1,564.00       1,702.00    6.57     0.72    -6.15              4.15
+cv6           7,243.80      2,501.80       4,742.00   10.28     0.69    -9.20              6.80
+cv7           3,332.00      1,663.00       1,669.00    5.81     0.69    -5.40              3.79
+  MEAN  competition_cost = 4,329.27  (holding=1,658.03, shortage=2,671.25)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.428
+  VAL   competition_cost = 2,650.20  (holding=1,538.20, shortage=1,112.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.537
+[cap2_8f_TUNED_a0.75_m0.95] wall-time: 49.8s
+
+>>> cap2_8f_TUNED_a0.75_m1.0
+
+=== cap2_8f_TUNED_a0.75_m1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,072.20      1,826.20       4,246.00    5.88     0.67    -5.03              3.71
+cv1           3,758.20      1,567.20       2,191.00    6.38     0.72    -6.06              4.07
+cv2           4,285.20      1,304.20       2,981.00    7.68     0.73    -7.47              5.09
+cv3           3,447.80      1,969.80       1,478.00    5.97     0.68    -5.75              3.32
+cv4           3,029.80      1,433.80       1,596.00    6.25     0.69    -5.91              3.86
+cv5           3,242.20      1,674.20       1,568.00    6.57     0.72    -6.15              4.04
+cv6           7,149.80      2,679.80       4,470.00   10.28     0.69    -9.20              6.63
+cv7           3,336.60      1,775.60       1,561.00    5.81     0.69    -5.40              3.68
+  MEAN  competition_cost = 4,290.23  (holding=1,778.85, shortage=2,511.38)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.301
+  VAL   competition_cost = 2,657.00  (holding=1,646.00, shortage=1,011.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.434
+[cap2_8f_TUNED_a0.75_m1.0] wall-time: 45.9s
+
+>>> cap2_8f_TUNED_a0.75_m1.05
+
+=== cap2_8f_TUNED_a0.75_m1.05 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,004.60      1,932.60       4,072.00    5.88     0.67    -5.03              3.60
+cv1           3,747.60      1,670.60       2,077.00    6.38     0.72    -6.06              3.96
+cv2           4,227.00      1,404.00       2,823.00    7.68     0.73    -7.47              4.97
+cv3           3,510.80      2,126.80       1,384.00    5.97     0.68    -5.75              3.20
+cv4           3,019.00      1,555.00       1,464.00    6.25     0.69    -5.91              3.74
+cv5           3,226.40      1,786.40       1,440.00    6.57     0.72    -6.15              3.92
+cv6           7,078.00      2,852.00       4,226.00   10.28     0.69    -9.20              6.47
+cv7           3,351.20      1,904.20       1,447.00    5.81     0.69    -5.40              3.57
+  MEAN  competition_cost = 4,270.57  (holding=1,903.95, shortage=2,366.62)
+  MEAN  forecast MAE=6.85  WAPE=0.699  bias=-6.37  pinball@0.833=4.178
+  VAL   competition_cost = 2,691.40  (holding=1,765.40, shortage=926.00)
+  VAL   forecast MAE=5.35  WAPE=0.684  bias=-4.92  pinball@0.833=3.333
+[cap2_8f_TUNED_a0.75_m1.05] wall-time: 55.5s
+
+=== SUMMARY ===
+ alpha   mult         cv        val
+ 0.700  1.050   4,259.12   2,629.00
+ 0.750  1.050   4,270.57   2,691.40
+ 0.750  1.000   4,290.23   2,657.00
+ 0.700  1.000   4,295.95   2,611.40
+ 0.750  0.950   4,329.27   2,650.20
+ 0.700  0.950   4,352.43   2,616.20

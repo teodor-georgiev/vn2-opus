@@ -1,0 +1,23 @@
+=== tcn_cov2_m1.10_SACRED ===
+Selection rationale: CV-winner with VAL tiebreak at mult=1.10.
+Reference:  LGB+CB cov=2 x 1.05 scored 3,786 EUR on sacred.
+
+
+--- SACRED result (tcn_cov2_m1.10_SACRED) ---
+competition_cost  =  3,808.60 EUR
+  holding         =  1,264.60
+  shortage        =  2,544.00
+setup_cost (wk1-2)=  913.80 (const across all policies)
+total_cost        =  4,722.40
+wall-time         =  543.4s
+
+Weekly breakdown:
+ week  start_inventory  demand  sales  missed_sales  end_inventory  holding_cost  shortage_cost  total_cost
+    0           2225.0  1654.0 1432.0         222.0          793.0         158.6          222.0       380.6
+    1           2492.0  1800.0 1471.0         329.0         1021.0         204.2          329.0       533.2
+    2           2221.0  1966.0 1320.0         646.0          901.0         180.2          646.0       826.2
+    3           2416.0  2321.0 1547.0         774.0          869.0         173.8          774.0       947.8
+    4           2118.0  1774.0 1262.0         512.0          856.0         171.2          512.0       683.2
+    5           2545.0  1430.0 1270.0         160.0         1275.0         255.0          160.0       415.0
+    6           2500.0  1519.0 1280.0         239.0         1220.0         244.0          239.0       483.0
+    7           2495.0  1506.0 1293.0         213.0         1202.0         240.4          213.0       453.4

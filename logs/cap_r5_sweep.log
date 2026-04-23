@@ -1,0 +1,283 @@
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+
+>>> cap2_a0.65_r5_m0.7  per_round_multiplier=[1.0, 1.0, 1.0, 1.0, 1.0, 0.7]
+
+=== cap2_a0.65_r5_m0.7 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,059.40      1,893.40       4,166.00    5.75     0.66    -4.59              3.43
+cv1           3,782.00      1,338.00       2,444.00    6.24     0.71    -5.91              3.80
+cv2           4,764.80        989.80       3,775.00    7.72     0.73    -7.54              4.78
+cv3           3,411.00      1,477.00       1,934.00    5.91     0.67    -5.65              3.37
+cv4           3,448.40      1,183.40       2,265.00    6.21     0.69    -5.85              3.72
+cv5           3,178.60      1,298.60       1,880.00    6.50     0.71    -6.07              3.87
+cv6           8,033.20      1,844.20       6,189.00   10.37     0.70    -9.72              6.36
+cv7           3,505.40      1,423.40       2,082.00    5.87     0.69    -5.44              3.56
+  MEAN  competition_cost = 4,522.85  (holding=1,430.98, shortage=3,091.88)
+  MEAN  forecast MAE=6.82  WAPE=0.695  bias=-6.35  pinball@0.833=4.111
+  VAL   competition_cost = 2,692.00  (holding=1,476.00, shortage=1,216.00)
+  VAL   forecast MAE=5.22  WAPE=0.669  bias=-4.80  pinball@0.833=3.197
+[cap2_a0.65_r5_m0.7] wall-time: 49.0s
+
+>>> cap2_a0.65_r5_m0.8  per_round_multiplier=[1.0, 1.0, 1.0, 1.0, 1.0, 0.8]
+
+=== cap2_a0.65_r5_m0.8 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,071.20      1,924.20       4,147.00    5.75     0.66    -4.59              3.40
+cv1           3,732.00      1,361.00       2,371.00    6.24     0.71    -5.91              3.77
+cv2           4,629.00        998.00       3,631.00    7.72     0.73    -7.54              4.75
+cv3           3,374.00      1,503.00       1,871.00    5.91     0.67    -5.65              3.33
+cv4           3,370.20      1,204.20       2,166.00    6.21     0.69    -5.85              3.68
+cv5           3,160.60      1,325.60       1,835.00    6.50     0.71    -6.07              3.84
+cv6           7,837.60      1,878.60       5,959.00   10.37     0.70    -9.72              6.30
+cv7           3,412.20      1,435.20       1,977.00    5.87     0.69    -5.44              3.53
+  MEAN  competition_cost = 4,448.35  (holding=1,453.73, shortage=2,994.62)
+  MEAN  forecast MAE=6.82  WAPE=0.695  bias=-6.35  pinball@0.833=4.075
+  VAL   competition_cost = 2,649.40  (holding=1,496.40, shortage=1,153.00)
+  VAL   forecast MAE=5.22  WAPE=0.669  bias=-4.80  pinball@0.833=3.166
+[cap2_a0.65_r5_m0.8] wall-time: 59.8s
+
+>>> cap2_a0.65_r5_m0.9  per_round_multiplier=[1.0, 1.0, 1.0, 1.0, 1.0, 0.9]
+
+=== cap2_a0.65_r5_m0.9 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,087.80      1,959.80       4,128.00    5.75     0.66    -4.59              3.37
+cv1           3,698.60      1,388.60       2,310.00    6.24     0.71    -5.91              3.73
+cv2           4,506.80      1,008.80       3,498.00    7.72     0.73    -7.54              4.71
+cv3           3,348.60      1,533.60       1,815.00    5.91     0.67    -5.65              3.29
+cv4           3,316.80      1,229.80       2,087.00    6.21     0.69    -5.85              3.65
+cv5           3,153.20      1,356.20       1,797.00    6.50     0.71    -6.07              3.81
+cv6           7,667.40      1,920.40       5,747.00   10.37     0.70    -9.72              6.25
+cv7           3,336.40      1,454.40       1,882.00    5.87     0.69    -5.44              3.50
+  MEAN  competition_cost = 4,389.45  (holding=1,481.45, shortage=2,908.00)
+  MEAN  forecast MAE=6.82  WAPE=0.695  bias=-6.35  pinball@0.833=4.039
+  VAL   competition_cost = 2,613.00  (holding=1,518.00, shortage=1,095.00)
+  VAL   forecast MAE=5.22  WAPE=0.669  bias=-4.80  pinball@0.833=3.135
+[cap2_a0.65_r5_m0.9] wall-time: 49.4s
+
+>>> cap2_a0.65_r5_m1.0  per_round_multiplier=[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+
+=== cap2_a0.65_r5_m1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,114.80      1,996.80       4,118.00    5.75     0.66    -4.59              3.34
+cv1           3,658.40      1,417.40       2,241.00    6.24     0.71    -5.91              3.70
+cv2           4,382.40      1,022.40       3,360.00    7.72     0.73    -7.54              4.68
+cv3           3,329.40      1,566.40       1,763.00    5.91     0.67    -5.65              3.25
+cv4           3,286.00      1,261.00       2,025.00    6.21     0.69    -5.85              3.62
+cv5           3,155.80      1,388.80       1,767.00    6.50     0.71    -6.07              3.78
+cv6           7,508.80      1,968.80       5,540.00   10.37     0.70    -9.72              6.21
+cv7           3,279.40      1,476.40       1,803.00    5.87     0.69    -5.44              3.47
+  MEAN  competition_cost = 4,339.38  (holding=1,512.25, shortage=2,827.12)
+  MEAN  forecast MAE=6.82  WAPE=0.695  bias=-6.35  pinball@0.833=4.006
+  VAL   competition_cost = 2,593.00  (holding=1,540.00, shortage=1,053.00)
+  VAL   forecast MAE=5.22  WAPE=0.669  bias=-4.80  pinball@0.833=3.105
+[cap2_a0.65_r5_m1.0] wall-time: 57.5s
+
+>>> cap2_a0.65_r5_m1.1  per_round_multiplier=[1.0, 1.0, 1.0, 1.0, 1.0, 1.1]
+
+=== cap2_a0.65_r5_m1.1 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,142.80      2,040.80       4,102.00    5.75     0.66    -4.59              3.31
+cv1           3,634.20      1,449.20       2,185.00    6.24     0.71    -5.91              3.67
+cv2           4,271.20      1,038.20       3,233.00    7.72     0.73    -7.54              4.64
+cv3           3,322.60      1,603.60       1,719.00    5.91     0.67    -5.65              3.21
+cv4           3,282.20      1,297.20       1,985.00    6.21     0.69    -5.85              3.59
+cv5           3,176.20      1,427.20       1,749.00    6.50     0.71    -6.07              3.75
+cv6           7,375.80      2,021.80       5,354.00   10.37     0.70    -9.72              6.17
+cv7           3,235.20      1,503.20       1,732.00    5.87     0.69    -5.44              3.44
+  MEAN  competition_cost = 4,305.02  (holding=1,547.65, shortage=2,757.38)
+  MEAN  forecast MAE=6.82  WAPE=0.695  bias=-6.35  pinball@0.833=3.974
+  VAL   competition_cost = 2,587.80  (holding=1,566.80, shortage=1,021.00)
+  VAL   forecast MAE=5.22  WAPE=0.669  bias=-4.80  pinball@0.833=3.076
+[cap2_a0.65_r5_m1.1] wall-time: 46.2s
+
+=== SUMMARY (sweep round=5) ===
+  mult         cv        val
+ 1.100   4,305.02   2,587.80
+ 1.000   4,339.38   2,593.00
+ 0.900   4,389.45   2,613.00
+ 0.800   4,448.35   2,649.40
+ 0.700   4,522.85   2,692.00

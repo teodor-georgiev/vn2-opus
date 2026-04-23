@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-04-21T17:03:00",
+  "n_trials_total": 30,
+  "study_name": "vn2_optuna_weights",
+  "single_best": {
+    "cv_value": 3625.55,
+    "params": {
+      "w_ma": 0.28745440577764925,
+      "w_lgb_share": 0.6970577422304106,
+      "multiplier": 1.0730735561458948,
+      "safety_units": 0.5962400445213906
+    },
+    "gate": {
+      "cv_mean": 3625.55,
+      "val": 2941.8,
+      "val_rel_vs_baseline": 0.030402802101576247,
+      "flagged": "False",
+      "reason": "",
+      "sacred": 3590.0
+    }
+  },
+  "consensus_top5": {
+    "trial_ids": [
+      21,
+      15,
+      14,
+      23,
+      22
+    ],
+    "trial_cvs": [
+      3625.55,
+      3626.6000000000004,
+      3629.0499999999997,
+      3629.55,
+      3638.1000000000004
+    ],
+    "gate": {
+      "cv_mean": 3624.05,
+      "val": 2895.2000000000003,
+      "val_rel_vs_baseline": 0.014080560420315332,
+      "flagged": "False",
+      "reason": "",
+      "sacred": 3646.6000000000004
+    }
+  }
+}

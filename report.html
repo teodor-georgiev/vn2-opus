@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>VN2 Report (CostAware champion)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+<style>
+  body { font: 13px/1.4 system-ui, Segoe UI, sans-serif; margin: 20px;
+          background: #fafafa; color: #222; }
+  h1, h2 { margin-top: 1.1em; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card { background: white; padding: 16px; border-radius: 6px;
+           box-shadow: 0 1px 2px rgba(0,0,0,.08); margin: 12px 0; }
+  .big { font-size: 22px; font-weight: 600; color: #1B5E20; }
+  .kpi { display: inline-block; padding: 8px 14px; margin: 6px 8px 0 0;
+           background: #f0f0f0; border-radius: 4px; }
+  .kpi .v { font-size: 16px; font-weight: 600; }
+  .kpi .l { font-size: 11px; color: #666; text-transform: uppercase; }
+  canvas { max-height: 330px; }
+  table.tbl { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table.tbl th, table.tbl td { padding: 4px 8px; border-bottom: 1px solid #eee;
+                                  text-align: right; }
+  table.tbl th { background: #f3f3f3; cursor: pointer; user-select: none;
+                   text-align: left; position: sticky; top: 0; }
+  table.tbl th:first-child, table.tbl td:first-child { text-align: left; }
+  table.tbl td:nth-child(2) { text-align: left; font-family: monospace;
+                                 font-size: 11px; max-width: 460px;
+                                 overflow: hidden; text-overflow: ellipsis;
+                                 white-space: nowrap; }
+  tr.sacred { background: #FFFDE7; }
+  tr:hover { background: #EEF5FF; }
+  .muted { color: #888; }
+  pre { background: #f5f5f5; padding: 10px; border-radius: 4px;
+          overflow-x: auto; font-size: 11px; }
+</style>
+</head><body>
+
+<h1>VN2 Inventory Challenge — Report (CostAware champion)</h1>
+
+<div class="card">
+  <div><b>Champion:</b> DiverseCostAwarePolicy (5-model ensemble, Optuna-tuned: alpha=0.600, mult=1.138, w_ma=0.329).
+        Selected on 8-fold CV via 15-trial Optuna (TPE), one-shot sacred.</div>
+  <div class="big" style="margin-top:6px;">SACRED Competition Cost: EUR 3,256.80</div>
+  <div>
+    <span class="kpi"><div class="l">Total 8wk</div><div class="v">EUR 4,171</div></span>
+    <span class="kpi"><div class="l">Setup (fixed)</div><div class="v">EUR 914</div></span>
+    <span class="kpi"><div class="l">Holding</div><div class="v">EUR 1,521</div></span>
+    <span class="kpi"><div class="l">Shortage</div><div class="v">EUR 1,736</div></span>
+    <span class="kpi"><div class="l">vs Benchmark 4,334</div><div class="v">-24.9%</div></span>
+    <span class="kpi"><div class="l">vs Bartosz #1 3,763</div><div class="v">-13.5%</div></span>
+    <span class="kpi"><div class="l">vs Oracle 333</div><div class="v">9.8x</div></span>
+  </div>
+</div>
+
+<h2>Forecast accuracy</h2>
+<div class="grid">
+  <div class="card">
+    <h2>Forecast accuracy per round</h2>
+    <div><canvas id="chart_accuracy"></canvas></div>
+  </div>
+  <div class="card">
+    <h2>Forecast vs actual (per round, summed across SKUs)</h2>
+    <div><canvas id="chart_fcVSactual"></canvas></div>
+  </div>
+</div>
+<div>
+  <span class="kpi"><div class="l">Avg MAE per SKU</div><div class="v">1.61</div></span>
+  <span class="kpi"><div class="l">Avg WAPE</div><div class="v">55.1%</div></span>
+  <span class="kpi"><div class="l">Avg bias</div><div class="v">+0.12</div></span>
+</div>
+
+<h2>NEW: Total weekly demand — full history</h2>
+<div class="card">
+  <h2>Total demand summed across all 599 SKUs (~3 years history)</h2>
+  <canvas id="chart_history" style="max-height: 380px;"></canvas>
+  <p class="muted">Yellow shaded = VAL (weeks 149-156). Red shaded = SACRED (weeks 157-164).
+       <b>Dashed purple dots</b> = predictions from each of the 8 CV folds (each 8-week ahead).
+       <b>Solid orange dots</b> = VAL prediction. <b>Solid dark-red dots</b> = SACRED prediction.</p>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Sacred-window weekly demand (zoom)</h2>
+    <canvas id="chart_demand"></canvas>
+  </div>
+  <div class="card">
+    <h2>Inventory evolution (sacred)</h2>
+    <canvas id="chart_inv"></canvas>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Weekly cost breakdown (sacred)</h2>
+    <canvas id="chart_cost"></canvas>
+  </div>
+  <div class="card">
+    <h2>Cumulative cost (sacred)</h2>
+    <canvas id="chart_cum"></canvas>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Champion config</h2>
+  <pre>{
+  "policy": "DiverseCostAwarePolicy (Optuna-tuned)",
+  "alpha": 0.599816047538945,
+  "multiplier": 1.1376785766024788,
+  "w_ma": 0.3293972738151323,
+  "backtest_window": 26,
+  "safety_floor": 0.5,
+  "rmse_horizons": 1,
+  "n_variants": 5,
+  "ensemble_models": [
+    "lgbm_default",
+    "lgbm_shallow",
+    "lgbm_tweedie",
+    "catboost_default",
+    "catboost_deep"
+  ]
+}</pre>
+</div>
+
+<div class="card">
+  <h2>All experiments (sacred + recent)</h2>
+  
+<table id="exp" class="tbl">
+  <thead><tr><th onclick="sortTable(0)">timestamp</th><th onclick="sortTable(1)">policy</th><th onclick="sortTable(2)">cv_mean_cost</th><th onclick="sortTable(3)">val_cost</th><th onclick="sortTable(4)">fc_mae</th><th onclick="sortTable(5)">fc_bias</th><th onclick="sortTable(6)">is_sacred</th></tr></thead>
+  <tbody><tr><td>04-21 14:46</td><td>Seasonal Benchmark (4wk cov)</td><td>5,833.00</td><td>5,286.00</td><td>4.83</td><td>-0.03</td><td></td></tr><tr><td>04-21 14:46</td><td>Quantile (LGB+CB, alpha=0.833, 3wk cov)</td><td>9,858.00</td><td>10,210.00</td><td>10.44</td><td>9.98</td><td></td></tr><tr><td>04-21 14:46</td><td>ML Point (cov=3)</td><td>4,396.00</td><td>4,084.00</td><td>3.92</td><td>0.55</td><td></td></tr><tr><td>04-21 14:46</td><td>Gaussian Safety cov=3 alpha=0.60</td><td>4,823.00</td><td>4,808.00</td><td>3.92</td><td>0.55</td><td></td></tr><tr><td>04-21 14:46</td><td>Gaussian Safety cov=3 alpha=0.75</td><td>5,824.00</td><td>6,178.00</td><td>3.92</td><td>0.55</td><td></td></tr><tr><td>04-21 14:46</td><td>Gaussian Safety cov=3 alpha=0.833</td><td>6,706.00</td><td>7,319.00</td><td>3.92</td><td>0.55</td><td></td></tr><tr><td>04-21 14:46</td><td>Gaussian Safety cov=3 alpha=0.90</td><td>8,302.00</td><td>9,210.00</td><td>3.92</td><td>0.55</td><td></td></tr><tr><td>04-21 14:46</td><td>Gaussian Safety cov=3 alpha=0.833 [history sigma]</td><td>6,702.00</td><td>7,034.00</td><td>3.92</td><td>0.55</td><td></td></tr></tbody>
+</table>
+<p class="muted">Showing top 8 rows by sacred-flag then date.</p>
+</div>
+
+<script>
+const D = {"weeks": ["wk1", "wk2", "wk3", "wk4", "wk5", "wk6", "wk7", "wk8"], "demand": [1654.0, 1800.0, 1966.0, 2321.0, 1774.0, 1430.0, 1519.0, 1506.0], "sales": [1432.0, 1471.0, 1649.0, 1813.0, 1394.0, 1281.0, 1342.0, 1301.0], "missed_sales": [222.0, 329.0, 317.0, 508.0, 380.0, 149.0, 177.0, 205.0], "start_inv": [2225.0, 2492.0, 3045.0, 3137.0, 2494.0, 2467.0, 2675.0, 2566.0], "end_inv": [793.0, 1021.0, 1396.0, 1324.0, 1100.0, 1186.0, 1333.0, 1265.0], "holding": [158.6, 204.20000000000002, 279.20000000000005, 264.8, 220.0, 237.2, 266.6, 253.0], "shortage": [222.0, 329.0, 317.0, 508.0, 380.0, 149.0, 177.0, 205.0], "cum_total": [380.6, 913.8000000000001, 1510.0, 2282.8, 2882.8, 3269.0, 3712.6, 4170.6], "rounds": [1, 2, 3, 4, 5, 6], "fc_sum": [2121.6846800356275, 2105.911130743203, 1667.6124039518304, 1674.5279372394125, 1746.91765504451, 1635.5175858197836], "actual_sum": [1966.0, 2321.0, 1774.0, 1430.0, 1519.0, 1506.0], "mae": [1.9433681890768382, 2.078210699433985, 1.4634302422996617, 1.3793777676133103, 1.4588134850442123, 1.334060176557578], "wape": [59.210454997814146, 53.634132225805985, 49.413456321166706, 57.779530265760336, 57.52661471635834, 53.061224817927574], "bias": [0.2599076461362727, -0.3590799152868061, -0.17760867453784607, 0.40822694029952017, 0.3804969199407513, 0.21622301472417918], "order_sum": [2024, 1741, 1170, 1367, 1489, 1233], "history": {"dates": ["2021-04-12", "2021-04-19", "2021-04-26", "2021-05-03", "2021-05-10", "2021-05-17", "2021-05-24", "2021-05-31", "2021-06-07", "2021-06-14", "2021-06-21", "2021-06-28", "2021-07-05", "2021-07-12", "2021-07-19", "2021-07-26", "2021-08-02", "2021-08-09", "2021-08-16", "2021-08-23", "2021-08-30", "2021-09-06", "2021-09-13", "2021-09-20", "2021-09-27", "2021-10-04", "2021-10-11", "2021-10-18", "2021-10-25", "2021-11-01", "2021-11-08", "2021-11-15", "2021-11-22", "2021-11-29", "2021-12-06", "2021-12-13", "2021-12-20", "2021-12-27", "2022-01-03", "2022-01-10", "2022-01-17", "2022-01-24", "2022-01-31", "2022-02-07", "2022-02-14", "2022-02-21", "2022-02-28", "2022-03-07", "2022-03-14", "2022-03-21", "2022-03-28", "2022-04-04", "2022-04-11", "2022-04-18", "2022-04-25", "2022-05-02", "2022-05-09", "2022-05-16", "2022-05-23", "2022-05-30", "2022-06-06", "2022-06-13", "2022-06-20", "2022-06-27", "2022-07-04", "2022-07-11", "2022-07-18", "2022-07-25", "2022-08-01", "2022-08-08", "2022-08-15", "2022-08-22", "2022-08-29", "2022-09-05", "2022-09-12", "2022-09-19", "2022-09-26", "2022-10-03", "2022-10-10", "2022-10-17", "2022-10-24", "2022-10-31", "2022-11-07", "2022-11-14", "2022-11-21", "2022-11-28", "2022-12-05", "2022-12-12", "2022-12-19", "2022-12-26", "2023-01-02", "2023-01-09", "2023-01-16", "2023-01-23", "2023-01-30", "2023-02-06", "2023-02-13", "2023-02-20", "2023-02-27", "2023-03-06", "2023-03-13", "2023-03-20", "2023-03-27", "2023-04-03", "2023-04-10", "2023-04-17", "2023-04-24", "2023-05-01", "2023-05-08", "2023-05-15", "2023-05-22", "2023-05-29", "2023-06-05", "2023-06-12", "2023-06-19", "2023-06-26", "2023-07-03", "2023-07-10", "2023-07-17", "2023-07-24", "2023-07-31", "2023-08-07", "2023-08-14", "2023-08-21", "2023-08-28", "2023-09-04", "2023-09-11", "2023-09-18", "2023-09-25", "2023-10-02", "2023-10-09", "2023-10-16", "2023-10-23", "2023-10-30", "2023-11-06", "2023-11-13", "2023-11-20", "2023-11-27", "2023-12-04", "2023-12-11", "2023-12-18", "2023-12-25", "2024-01-01", "2024-01-08", "2024-01-15", "2024-01-22", "2024-01-29", "2024-02-05", "2024-02-12", "2024-02-19", "2024-02-26", "2024-03-04", "2024-03-11", "2024-03-18", "2024-03-25", "2024-04-01", "2024-04-08", "2024-04-15", "2024-04-22", "2024-04-29", "2024-05-06", "2024-05-13", "2024-05-20", "2024-05-27", "2024-06-03"], "totals": [1079.0, 1012.0, 1506.0, 1498.0, 1165.0, 951.0, 1031.0, 1193.0, 903.0, 1283.0, 1019.0, 997.0, 1062.0, 1310.0, 1185.0, 1231.0, 1101.0, 1056.0, 1130.0, 1155.0, 1333.0, 1298.0, 1375.0, 1336.0, 1569.0, 1448.0, 1635.0, 1440.0, 1507.0, 1449.0, 3984.0, 2720.0, 1428.0, 1977.0, 1716.0, 3131.0, 3538.0, 1648.0, 2101.0, 1320.0, 1227.0, 1385.0, 1350.0, 1520.0, 1504.0, 1326.0, 1346.0, 1538.0, 1333.0, 1283.0, 1260.0, 1227.0, 1203.0, 1250.0, 2174.0, 2078.0, 1990.0, 1399.0, 1478.0, 1734.0, 1439.0, 1998.0, 1455.0, 1531.0, 1496.0, 1556.0, 1462.0, 1601.0, 1655.0, 1908.0, 1755.0, 1570.0, 1945.0, 1754.0, 1794.0, 1418.0, 1861.0, 1785.0, 1897.0, 1563.0, 1546.0, 1615.0, 1681.0, 4142.0, 2820.0, 1760.0, 2508.0, 3229.0, 4338.0, 1849.0, 2295.0, 1363.0, 1318.0, 1224.0, 1586.0, 1667.0, 1617.0, 1426.0, 1471.0, 1754.0, 2193.0, 1905.0, 1793.0, 1777.0, 1775.0, 1524.0, 2024.0, 2761.0, 2717.0, 1667.0, 1840.0, 2005.0, 1744.0, 2284.0, 1633.0, 1605.0, 1657.0, 1836.0, 1691.0, 1738.0, 1853.0, 1956.0, 2043.0, 1798.0, 1828.0, 1646.0, 1505.0, 1628.0, 2288.0, 1975.0, 1718.0, 1493.0, 1376.0, 1801.0, 1559.0, 4310.0, 2883.0, 1916.0, 3134.0, 3096.0, 4806.0, 2465.0, 2175.0, 1611.0, 1507.0, 1395.0, 1559.0, 1751.0, 2120.0, 1630.0, 1665.0, 1601.0, 1492.0, 1387.0, 1371.0, 1545.0, 1516.0, 1654.0, 1800.0, 1966.0, 2321.0, 1774.0, 1430.0, 1519.0, 1506.0], "sacred_start_idx": 157, "val_start_idx": 149, "preds_cv": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 3124.012454525513, 3085.5036833032277, 3866.788873749022, 4114.327253376933, 3525.6233639356988, 3160.9203399907165, 2877.140963189346, 2841.3649797291473, 1813.6279851052448, 1831.598427068685, 1963.1085906446208, 1997.4738958932512, 1913.2442663050917, 1859.4151570578265, 1997.708579436645, 2034.1852400037433, 1935.4567277926044, 1770.0597893663082, 1767.7976683989991, 1764.1207237085216, 1754.321920886242, 2037.6861247438947, 2084.8486950007964, 1963.491733363876, 1956.763330158902, 1957.4544893303364, 2033.9211235166763, 1928.6742771520703, 2104.912994737878, 1914.32034516955, 1882.7265894534833, 1859.1093770967805, 1777.8519996638795, 1735.8410228837952, 1803.9130860975815, 1837.6959900558677, 1898.3877995816133, 1853.5985511965866, 1837.6889557442069, 1935.7442286908004, 1919.461540673501, 1927.1180479487912, 1829.2915755283234, 1943.0924664257705, 1888.425143888629, 1967.6872735833329, 1822.1211235987262, 1822.66163329066, 1672.565544350368, 2114.744069418576, 3514.3484375312264, 2711.8139934987157, 2332.2391292709526, 2520.4119720134513, 3192.341185566662, 3846.6242153167723, 2600.952751715561, 2497.86098472085, 1909.866777481569, 1789.846592052802, 1751.710022747397, 1828.454846156161, 1860.0046212754917, 1859.135050624213, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], "preds_val": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1850.8694793976606, 1782.3427273392304, 1865.2527693928835, 1987.8479672719272, 1871.9380650134954, 1815.5880924332494, 1804.396836550587, 1769.9941297614446, null, null, null, null, null, null, null, null], "preds_sacred": [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1521.3307333237253, 1883.5547740046286, 2088.4809465789344, 2088.3317764592343, 1710.6302458809948, 1677.8714617850617, 1723.8583384918152, 1634.4808569869142]}};
+
+const opts = {
+  responsive: true,
+  interaction: { mode: 'index', intersect: false },
+  plugins: { legend: { position: 'top' } },
+};
+
+// NEW: Total weekly demand history with CV/VAL/SACRED predictions overlaid.
+{
+  const dates = D.history.dates;
+  const totals = D.history.totals;
+  const sStart = D.history.sacred_start_idx;
+  const vStart = D.history.val_start_idx;
+  // Highlight bands for VAL and SACRED windows
+  const valArr = totals.map((v,i) => (i >= vStart && i < sStart) ? v : null);
+  const sacArr = totals.map((v,i) => (i >= sStart) ? v : null);
+  new Chart(document.getElementById("chart_history"), {
+    type: 'line',
+    data: {
+      labels: dates,
+      datasets: [
+        { label: 'Actual total demand', data: totals,
+           borderColor: '#1976D2', borderWidth: 1.5, pointRadius: 0,
+           tension: 0.1, fill: false },
+        { label: 'VAL window (actual)', data: valArr,
+           borderColor: '#FFB300', backgroundColor: '#FFF59D55',
+           borderWidth: 2, pointRadius: 2, fill: true },
+        { label: 'SACRED window (actual)', data: sacArr,
+           borderColor: '#D32F2F', backgroundColor: '#FFCDD255',
+           borderWidth: 2, pointRadius: 2, fill: true },
+        { label: 'CV-fold predictions (8 folds, 8wk each)',
+           data: D.history.preds_cv,
+           borderColor: '#7E57C2', backgroundColor: 'transparent',
+           borderWidth: 2, pointRadius: 1.5, pointBackgroundColor: '#7E57C2',
+           tension: 0, fill: false, spanGaps: false, borderDash: [4,3] },
+        { label: 'VAL prediction', data: D.history.preds_val,
+           borderColor: '#FF9800', backgroundColor: 'transparent',
+           borderWidth: 2.5, pointRadius: 3, pointBackgroundColor: '#FF9800',
+           tension: 0, fill: false, spanGaps: false },
+        { label: 'SACRED prediction', data: D.history.preds_sacred,
+           borderColor: '#B71C1C', backgroundColor: 'transparent',
+           borderWidth: 2.5, pointRadius: 3, pointBackgroundColor: '#B71C1C',
+           tension: 0, fill: false, spanGaps: false },
+      ],
+    },
+    options: { ...opts, scales: { x: { ticks: { maxTicksLimit: 16 } } } },
+  });
+}
+
+// 1. Sacred week demand
+new Chart(document.getElementById("chart_demand"), {
+  type: 'bar',
+  data: {
+    labels: D.weeks,
+    datasets: [
+      { label: 'Demand', data: D.demand, backgroundColor: '#90CAF9' },
+      { type: 'line', label: 'Fulfilled', data: D.sales,
+         borderColor: '#1976D2', borderWidth: 2, tension: 0.2, fill: false },
+      { type: 'line', label: 'Missed', data: D.missed_sales,
+         borderColor: '#F44336', borderWidth: 2, tension: 0.2, fill: false, borderDash: [4,4] },
+    ],
+  },
+  options: opts,
+});
+
+// 2. Inventory
+new Chart(document.getElementById("chart_inv"), {
+  type: 'line',
+  data: {
+    labels: D.weeks,
+    datasets: [
+      { label: 'Start Inventory', data: D.start_inv,
+         borderColor: '#43A047', backgroundColor: '#43A04733', fill: true, tension: 0.2 },
+      { label: 'End Inventory', data: D.end_inv,
+         borderColor: '#2E7D32', borderWidth: 2, tension: 0.2, fill: false },
+    ],
+  },
+  options: opts,
+});
+
+// 3. Cost breakdown
+new Chart(document.getElementById("chart_cost"), {
+  type: 'bar',
+  data: {
+    labels: D.weeks,
+    datasets: [
+      { label: 'Holding', data: D.holding, backgroundColor: '#66BB6A' },
+      { label: 'Shortage', data: D.shortage, backgroundColor: '#EF5350' },
+    ],
+  },
+  options: { ...opts, scales: { x: { stacked: true }, y: { stacked: true } } },
+});
+
+// 4. Cumulative
+new Chart(document.getElementById("chart_cum"), {
+  type: 'line',
+  data: {
+    labels: D.weeks,
+    datasets: [{ label: 'Cumulative total cost', data: D.cum_total,
+                   borderColor: '#7B1FA2', backgroundColor: '#7B1FA222',
+                   fill: true, tension: 0.1 }],
+  },
+  options: opts,
+});
+
+// 5. Forecast accuracy per round
+new Chart(document.getElementById("chart_accuracy"), {
+  type: 'bar',
+  data: {
+    labels: D.rounds.map(r => 'R' + r),
+    datasets: [
+      { label: 'WAPE %', data: D.wape, backgroundColor: '#5C6BC0', yAxisID: 'y1' },
+      { type: 'line', label: 'Bias (per SKU)', data: D.bias,
+         borderColor: '#EF6C00', borderWidth: 2, tension: 0.2, fill: false, yAxisID: 'y2' },
+    ],
+  },
+  options: {
+    ...opts,
+    scales: {
+      y1: { position: 'left', beginAtZero: true, title: { display: true, text: 'WAPE %' } },
+      y2: { position: 'right', grid: { display: false }, title: { display: true, text: 'Bias' } },
+    },
+  },
+});
+
+// 6. Forecast vs actual sums
+new Chart(document.getElementById("chart_fcVSactual"), {
+  type: 'bar',
+  data: {
+    labels: D.rounds.map(r => 'R' + r),
+    datasets: [
+      { label: 'Forecast (sum)', data: D.fc_sum, backgroundColor: '#42A5F5' },
+      { label: 'Actual (sum)', data: D.actual_sum, backgroundColor: '#26A69A' },
+      { label: 'Order placed (sum)', data: D.order_sum, backgroundColor: '#AB47BC' },
+    ],
+  },
+  options: opts,
+});
+
+function sortTable(col) {
+  const tbody = document.querySelector('#exp tbody');
+  const rows = Array.from(tbody.rows);
+  const asc = !tbody.dataset.lastSort || tbody.dataset.lastSort != col + 'asc';
+  rows.sort((a, b) => {
+    let av = a.cells[col].textContent.replace(/,/g, '');
+    let bv = b.cells[col].textContent.replace(/,/g, '');
+    const an = parseFloat(av), bn = parseFloat(bv);
+    if (!isNaN(an) && !isNaN(bn)) { av = an; bv = bn; }
+    return asc ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+  tbody.dataset.lastSort = col + (asc ? 'asc' : 'desc');
+}
+</script>
+</body></html>

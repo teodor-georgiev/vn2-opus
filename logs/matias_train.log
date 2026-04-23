@@ -1,0 +1,90 @@
+Setting file name: vn2_round_1_fast
+Hyperparams file name: data_driven_net_fast
+
+J:\Toni\Vibing\VN2_Opus\references\matias_alvo\data_handling.py:188: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(demand)
+Loading model from saved_models/2026_04_21/data_driven/1776770228.pt
+epoch: 1
+Average per-period train loss: 1.0927643383559493
+Average per-period dev loss: 1.4832762515228082
+Best per-period dev loss: 1.4832762515228082
+epoch: 11
+Average per-period train loss: 1.0877923319492602
+Average per-period dev loss: 1.4962361607747146
+Best per-period dev loss: 1.4832762515228082
+epoch: 21
+Average per-period train loss: 1.0832762581510496
+Average per-period dev loss: 1.486697635135135
+Best per-period dev loss: 1.4832762515228082
+epoch: 31
+Average per-period train loss: 1.0815386978653883
+Average per-period dev loss: 1.4885792903713395
+Best per-period dev loss: 1.4832762515228082
+epoch: 41
+Average per-period train loss: 1.0800548546009732
+Average per-period dev loss: 1.487119403679556
+Best per-period dev loss: 1.4832762515228082
+epoch: 51
+Average per-period train loss: 1.0787898366936346
+Average per-period dev loss: 1.4871218711929792
+Best per-period dev loss: 1.4832762515228082
+epoch: 61
+Average per-period train loss: 1.07768121816275
+Average per-period dev loss: 1.486390958466814
+Best per-period dev loss: 1.4832762515228082
+epoch: 71
+Average per-period train loss: 1.0767135039881284
+Average per-period dev loss: 1.4869470302418446
+Best per-period dev loss: 1.4832762515228082
+epoch: 81
+Average per-period train loss: 1.0758297304624516
+Average per-period dev loss: 1.4862333901096423
+Best per-period dev loss: 1.4832762515228082
+epoch: 91
+Average per-period train loss: 1.0749796223763253
+Average per-period dev loss: 1.4857908239520823
+Best per-period dev loss: 1.4832762515228082
+epoch: 101
+Average per-period train loss: 1.0738121450637101
+Average per-period dev loss: 1.4862622952668862
+Best per-period dev loss: 1.4832762515228082
+epoch: 111
+Average per-period train loss: 1.0773263933478876
+Average per-period dev loss: 1.4905129396403916
+Best per-period dev loss: 1.4832762515228082
+epoch: 121
+Average per-period train loss: 1.0761485488634905
+Average per-period dev loss: 1.4869470302418446
+Best per-period dev loss: 1.4832762515228082
+epoch: 131
+Average per-period train loss: 1.074036878593953
+Average per-period dev loss: 1.4858058052835807
+Best per-period dev loss: 1.4832762515228082
+epoch: 141
+Average per-period train loss: 1.0721124862662843
+Average per-period dev loss: 1.4859131421174931
+Best per-period dev loss: 1.4832762515228082
+epoch: 151
+Average per-period train loss: 1.0806851340553343
+Average per-period dev loss: 1.491390316913324
+Best per-period dev loss: 1.4832762515228082
+epoch: 161
+Average per-period train loss: 1.0760223592026597
+Average per-period dev loss: 1.4867617904841401
+Best per-period dev loss: 1.4832762515228082
+epoch: 171
+Average per-period train loss: 1.0703422638157614
+Average per-period dev loss: 1.4867635529937282
+Best per-period dev loss: 1.4832762515228082
+epoch: 181
+Average per-period train loss: 1.068963318493786
+Average per-period dev loss: 1.4864505312908902
+Best per-period dev loss: 1.4832762515228082
+epoch: 191
+Average per-period train loss: 1.0675163734429176
+Average per-period dev loss: 1.4871054798538104
+Best per-period dev loss: 1.4832762515228082
+
+Early stopping triggered at epoch 201
+No improvement for 200 epochs
+Best model was at epoch 1 with dev loss: 1.4832762515228082

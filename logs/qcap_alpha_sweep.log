@@ -1,0 +1,36 @@
+=== Running quantile α=0.60 ===
+cv4           3,727.20        984.20       2,743.00    6.16     0.68    -5.77              3.66
+cv5           3,375.60      1,076.60       2,299.00    6.38     0.70    -5.91              3.78
+cv6           8,985.00      1,380.00       7,605.00   10.76     0.73   -10.15              6.39
+cv7           3,372.40      1,210.40       2,162.00    5.71     0.67    -5.21              3.38
+  MEAN  competition_cost = 4,758.70  (holding=1,144.33, shortage=3,614.38)
+  MEAN  forecast MAE=6.80  WAPE=0.691  bias=-6.32  pinball@0.833=4.031
+  VAL   competition_cost = 2,479.40  (holding=1,245.40, shortage=1,234.00)
+  VAL   forecast MAE=5.12  WAPE=0.655  bias=-4.65  pinball@0.833=3.026
+
+[qcap_q0.60_8f] wall-time: 371.4s
+---
+=== Running quantile α=0.65 ===
+cv4           3,532.40      1,121.40       2,411.00    5.92     0.66    -5.45              3.78
+cv5           3,265.00      1,225.00       2,040.00    6.18     0.68    -5.62              3.93
+cv6           8,443.80      1,709.80       6,734.00   10.34     0.70    -9.44              6.58
+cv7           3,338.80      1,344.80       1,994.00    5.55     0.66    -4.95              3.52
+  MEAN  competition_cost = 4,577.52  (holding=1,323.53, shortage=3,254.00)
+  MEAN  forecast MAE=6.55  WAPE=0.666  bias=-5.96  pinball@0.833=4.170
+  VAL   competition_cost = 2,497.80  (holding=1,434.80, shortage=1,063.00)
+  VAL   forecast MAE=4.91  WAPE=0.628  bias=-4.33  pinball@0.833=3.105
+
+[qcap_q0.65_8f] wall-time: 356.3s
+---
+=== Running quantile α=0.70 ===
+cv4           3,435.00      1,311.00       2,124.00    5.67     0.63    -5.07              3.85
+cv5           3,196.20      1,399.20       1,797.00    5.98     0.66    -5.27              4.04
+cv6           8,040.00      2,118.00       5,922.00    9.88     0.67    -8.60              6.66
+cv7           3,302.20      1,532.20       1,770.00    5.37     0.64    -4.61              3.61
+  MEAN  competition_cost = 4,446.10  (holding=1,543.23, shortage=2,902.88)
+  MEAN  forecast MAE=6.29  WAPE=0.640  bias=-5.52  pinball@0.833=4.249
+  VAL   competition_cost = 2,553.80  (holding=1,646.80, shortage=907.00)
+  VAL   forecast MAE=4.71  WAPE=0.603  bias=-3.97  pinball@0.833=3.150
+
+[qcap_q0.70_8f] wall-time: 378.5s
+---

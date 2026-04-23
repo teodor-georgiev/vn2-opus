@@ -1,0 +1,154 @@
+[stacked_nn_8f] folds=['cv0', 'cv1', 'cv2', 'cv3', 'cv4', 'cv5', 'cv6', 'cv7'] val=True alpha=0.65 mult=1.0 meta=ridge_nn
+    [stacked] _fit start: sales_hist shape=(599, 86)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.02
+    [stacked] meta coefs: {'lgb': 0.04817678001324068, 'cb': 0.32373550587704747, 'ma': 0.4921411522394526, 'intercept': 0.45946836848470207, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.048 cb=0.324 ma=0.492 int=+0.459 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 94)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.38
+    [stacked] meta coefs: {'lgb': 0.0, 'cb': 0.2909080272184945, 'ma': 0.539630266328842, 'intercept': 0.488430352023983, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.000 cb=0.291 ma=0.540 int=+0.488 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 102)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.37
+    [stacked] meta coefs: {'lgb': 0.0, 'cb': 0.18561222496248553, 'ma': 0.6295858126947748, 'intercept': 0.3304072634228752, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.000 cb=0.186 ma=0.630 int=+0.330 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 110)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.36
+    [stacked] meta coefs: {'lgb': 0.08845093564846268, 'cb': 0.040326744168918405, 'ma': 0.6002947590322412, 'intercept': 0.36272403884424387, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.088 cb=0.040 ma=0.600 int=+0.363 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 118)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.01
+    [stacked] meta coefs: {'lgb': 0.29529034466360493, 'cb': 0.05734863945333396, 'ma': 0.6296161261253689, 'intercept': 0.07955437131595122, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.295 cb=0.057 ma=0.630 int=+0.080 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 126)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.17
+    [stacked] meta coefs: {'lgb': 0.6204362216471132, 'cb': 0.06713433803801855, 'ma': 0.3996011291521928, 'intercept': 0.017012579125225802, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.620 cb=0.067 ma=0.400 int=+0.017 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 134)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.04
+    [stacked] meta coefs: {'lgb': 0.12829831093968777, 'cb': 0.0, 'ma': 0.8603600992750576, 'intercept': 0.04988983643052647, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.128 cb=0.000 ma=0.860 int=+0.050 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 142)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.60
+    [stacked] meta coefs: {'lgb': 0.02105205814674494, 'cb': 0.7977097241977932, 'ma': 0.3755871551340106, 'intercept': -0.7621618582519636, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.021 cb=0.798 ma=0.376 int=-0.762 n=15574
+    [stacked] _fit start: sales_hist shape=(599, 150)
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] ensemble._fit done
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [stacked] backtest forecaster fit
+    [stacked] backtest preds: lgb (599, 26), cb (599, 26), ma (599, 26)
+    [stacked] materialized backtest frames
+    [stacked] calling _fit_meta_learner...
+    [stacked-meta] enter: lgb (599, 26) cb (599, 26) ma (599, 26) act (599, 26)
+    [stacked-meta] flattened n_cols=26, lgb_v (15574,)
+    [stacked-meta] post-mask X (15574, 3) y (15574,)  mean_y=3.54
+    [stacked] meta coefs: {'lgb': 0.17159677989663677, 'cb': 1.0939705056901117, 'ma': 0.0, 'intercept': -1.0400256417109985, 'n_samples': 15574}
+    [stacked] meta coefs: lgb=0.172 cb=1.094 ma=0.000 int=-1.040 n=15574
+
+=== stacked_nn_8f ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,606.80      2,088.80       3,518.00    5.60     0.64    -4.50              3.21
+cv1           3,783.20      1,464.20       2,319.00    6.42     0.73    -5.98              3.74
+cv2           5,084.60        900.60       4,184.00    8.15     0.77    -7.94              4.85
+cv3           3,509.40      1,054.40       2,455.00    6.46     0.73    -6.27              3.51
+cv4           3,261.20      1,256.20       2,005.00    6.19     0.69    -5.82              3.62
+cv5           3,115.60      1,663.60       1,452.00    6.30     0.69    -5.77              3.64
+cv6           7,618.00      2,159.00       5,459.00   10.30     0.70    -9.61              6.10
+cv7           3,590.60      1,522.60       2,068.00    5.93     0.70    -5.68              3.30
+  MEAN  competition_cost = 4,446.18  (holding=1,513.68, shortage=2,932.50)
+  MEAN  forecast MAE=6.92  WAPE=0.706  bias=-6.45  pinball@0.833=3.997
+  VAL   competition_cost = 3,502.60  (holding=1,683.60, shortage=1,819.00)
+  VAL   forecast MAE=5.15  WAPE=0.659  bias=-4.92  pinball@0.833=3.017
+
+[stacked_nn_8f] wall-time: 135.5s

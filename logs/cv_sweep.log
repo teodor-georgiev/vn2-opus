@@ -1,0 +1,99 @@
+Loading data...
+  full_sales shape: (599, 165)
+
+Running: ML Point (cov=3)
+
+=== ML Point (cov=3) ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,020.80      3,790.80       1,230.00    4.30     0.49     0.83
+cv1           4,183.60      3,162.60       1,021.00    3.83     0.43     0.58
+cv2           4,222.60      3,253.60         969.00    3.90     0.43     0.23
+cv3           4,158.80      3,241.80         917.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,396.45  (holding=3,362.20, shortage=1,034.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,084.40  (holding=3,637.40, shortage=447.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: Gaussian Safety cov=3 alpha=0.60
+
+=== Gaussian Safety cov=3 alpha=0.60 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,439.40      4,594.40         845.00    4.30     0.49     0.83              2.18
+cv1           4,589.80      3,896.80         693.00    3.83     0.43     0.58              1.90
+cv2           4,533.60      3,815.60         718.00    3.90     0.43     0.23              1.94
+cv3           4,728.20      4,139.20         589.00    3.64     0.43     0.55              1.84
+  MEAN  competition_cost = 4,822.75  (holding=4,111.50, shortage=711.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55  pinball@0.833=1.964
+  VAL   competition_cost = 4,807.80  (holding=4,544.80, shortage=263.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46  pinball@0.833=1.751
+
+Running: Gaussian Safety cov=3 alpha=0.75
+
+=== Gaussian Safety cov=3 alpha=0.75 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,475.60      5,999.60         476.00    4.30     0.49     0.83              1.92
+cv1           5,634.40      5,260.40         374.00    3.83     0.43     0.58              1.65
+cv2           5,296.40      4,840.40         456.00    3.90     0.43     0.23              1.69
+cv3           5,889.60      5,604.60         285.00    3.64     0.43     0.55              1.62
+  MEAN  competition_cost = 5,824.00  (holding=5,426.25, shortage=397.75)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55  pinball@0.833=1.717
+  VAL   competition_cost = 6,177.60  (holding=6,059.60, shortage=118.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46  pinball@0.833=1.593
+
+Running: Gaussian Safety cov=3 alpha=0.833
+
+=== Gaussian Safety cov=3 alpha=0.833 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           7,390.20      7,096.20         294.00    4.30     0.49     0.83              1.59
+cv1           6,552.60      6,311.60         241.00    3.83     0.43     0.58              1.36
+cv2           5,968.20      5,640.20         328.00    3.90     0.43     0.23              1.42
+cv3           6,914.40      6,750.40         164.00    3.64     0.43     0.55              1.34
+  MEAN  competition_cost = 6,706.35  (holding=6,449.60, shortage=256.75)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55  pinball@0.833=1.426
+  VAL   competition_cost = 7,319.00  (holding=7,251.00, shortage=68.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46  pinball@0.833=1.335
+
+Running: Gaussian Safety cov=3 alpha=0.90
+
+=== Gaussian Safety cov=3 alpha=0.90 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           9,068.40      8,937.40         131.00    4.30     0.49     0.83              1.20
+cv1           8,216.40      8,089.40         127.00    3.83     0.43     0.58              1.03
+cv2           7,162.00      6,978.00         184.00    3.90     0.43     0.23              1.08
+cv3           8,759.80      8,683.80          76.00    3.64     0.43     0.55              1.03
+  MEAN  competition_cost = 8,301.65  (holding=8,172.15, shortage=129.50)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55  pinball@0.833=1.086
+  VAL   competition_cost = 9,210.20  (holding=9,182.20, shortage=28.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46  pinball@0.833=1.043
+
+Running: Gaussian Safety cov=3 alpha=0.833 [history sigma]
+
+=== Gaussian Safety cov=3 alpha=0.833 [history sigma] ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           7,129.80      6,849.80         280.00    4.30     0.49     0.83              1.51
+cv1           6,486.80      6,208.80         278.00    3.83     0.43     0.58              1.38
+cv2           6,476.80      6,237.80         239.00    3.90     0.43     0.23              1.39
+cv3           6,712.80      6,530.80         182.00    3.64     0.43     0.55              1.34
+  MEAN  competition_cost = 6,701.55  (holding=6,456.80, shortage=244.75)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55  pinball@0.833=1.405
+  VAL   competition_cost = 7,033.80  (holding=6,973.80, shortage=60.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46  pinball@0.833=1.282
+
+
+======================================================================================
+  SWEEP SUMMARY — CV mean vs VAL (lower is better; target 4,334; Matias ~3,765)
+======================================================================================
+  Policy                                                  CV mean        VAL    MAE    bias
+  -----------------------------------------------------------------------------------------
+  ML Point (cov=3)                                          4,396      4,084   3.92   +0.55
+  Gaussian Safety cov=3 alpha=0.60                          4,823      4,808   3.92   +0.55
+  Gaussian Safety cov=3 alpha=0.75                          5,824      6,178   3.92   +0.55
+  Gaussian Safety cov=3 alpha=0.833                         6,706      7,319   3.92   +0.55
+  Gaussian Safety cov=3 alpha=0.90                          8,302      9,210   3.92   +0.55
+  Gaussian Safety cov=3 alpha=0.833 [history sigma]         6,702      7,034   3.92   +0.55

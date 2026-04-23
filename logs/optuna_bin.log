@@ -1,0 +1,1403 @@
+[I 2026-04-23 18:24:30,978] A new study created in memory with name: no-name-657a6f3f-df85-4603-9f19-c0571e6d23d4
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.193 low=1.238  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 0: a=0.594 ml=1.238 mh=1.193 w=0.350 => CV=4212.8  VAL=2635.4  (253s)
+[I 2026-04-23 18:28:43,849] Trial 0 finished with value: 4212.775 and parameters: {'alpha': 0.5936350297118407, 'mult_low': 1.237678576602479, 'mult_high': 1.192797576724562, 'w_ma': 0.34966462104925916}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.923 low=1.039  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 1: a=0.539 ml=1.039 mh=0.923 w=0.417 => CV=4579.1  VAL=2589.6  (258s)
+[I 2026-04-23 18:33:01,702] Trial 1 finished with value: 4579.1 and parameters: {'alpha': 0.5390046601106091, 'mult_low': 1.0389986300840506, 'mult_high': 0.9232334448672798, 'w_ma': 0.41654403644373383}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.908 low=1.177  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 2: a=0.650 ml=1.177 mh=0.908 w=0.442 => CV=4379.4  VAL=2603.6  (425s)
+[I 2026-04-23 18:40:06,432] Trial 2 finished with value: 4379.4 and parameters: {'alpha': 0.6502787529358022, 'mult_low': 1.1770181444490113, 'mult_high': 0.908233797718321, 'w_ma': 0.4424774630404986}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.973 low=1.053  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 3: a=0.708 ml=1.053 mh=0.973 w=0.246 => CV=4336.9  VAL=2621.6  (384s)
+[I 2026-04-23 18:46:29,978] Trial 3 finished with value: 4336.85 and parameters: {'alpha': 0.7081106602001055, 'mult_low': 1.053084777669569, 'mult_high': 0.9727299868828403, 'w_ma': 0.24585112746335847}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.073 low=1.131  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 4: a=0.576 ml=1.131 mh=1.073 w=0.273 => CV=4322.0  VAL=2552.8  (422s)
+[I 2026-04-23 18:53:31,566] Trial 4 finished with value: 4321.975 and parameters: {'alpha': 0.5760605607398844, 'mult_low': 1.1311891079080594, 'mult_high': 1.0727780074568463, 'w_ma': 0.27280728504951046}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.017 low=1.035  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 5: a=0.653 ml=1.035 mh=1.017 w=0.292 => CV=4308.4  VAL=2570.6  (452s)
+[I 2026-04-23 19:01:03,497] Trial 5 finished with value: 4308.4 and parameters: {'alpha': 0.6529632236805949, 'mult_low': 1.0348734651630105, 'mult_high': 1.0168578594140874, 'w_ma': 0.29159046082342294}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=0.980 low=1.196  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 6: a=0.614 ml=1.196 mh=0.980 w=0.329 => CV=4340.1  VAL=2576.8  (298s)
+[I 2026-04-23 19:06:01,796] Trial 6 finished with value: 4340.075000000001 and parameters: {'alpha': 0.614017496054259, 'mult_low': 1.1962939903482535, 'mult_high': 0.9798695128633439, 'w_ma': 0.3285586096034029}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.143 low=1.012  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 7: a=0.648 ml=1.012 mh=1.143 w=0.243 => CV=4272.4  VAL=2633.4  (247s)
+[I 2026-04-23 19:10:08,406] Trial 7 finished with value: 4272.4 and parameters: {'alpha': 0.6481036422155106, 'mult_low': 1.0116126031799995, 'mult_high': 1.1430179407605754, 'w_ma': 0.2426310309218229}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.286 low=1.237  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 8: a=0.516 ml=1.237 mh=1.286 w=0.402 => CV=4238.3  VAL=2631.2  (241s)
+[I 2026-04-23 19:14:09,165] Trial 8 finished with value: 4238.275 and parameters: {'alpha': 0.5162628982463199, 'mult_low': 1.2372213843133333, 'mult_high': 1.2862528132298237, 'w_ma': 0.40209933702911527}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.174 low=1.024  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 9: a=0.576 ml=1.024 mh=1.174 w=0.310 => CV=4286.1  VAL=2592.0  (261s)
+[I 2026-04-23 19:18:30,602] Trial 9 finished with value: 4286.05 and parameters: {'alpha': 0.5761534422933426, 'mult_low': 1.024418028501596, 'mult_high': 1.1736932106048628, 'w_ma': 0.31003812343490034}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.244 low=1.118  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 10: a=0.736 ml=1.118 mh=1.244 w=0.360 => CV=4269.1  VAL=2877.4  (257s)
+[I 2026-04-23 19:22:47,152] Trial 10 finished with value: 4269.125 and parameters: {'alpha': 0.7362841360575966, 'mult_low': 1.1183318303636671, 'mult_high': 1.2435337885293192, 'w_ma': 0.3599495482816838}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.295 low=1.227  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 11: a=0.508 ml=1.227 mh=1.295 w=0.379 => CV=4250.9  VAL=2634.2  (260s)
+[I 2026-04-23 19:27:06,677] Trial 11 finished with value: 4250.875 and parameters: {'alpha': 0.5079824368144613, 'mult_low': 1.2269161988206294, 'mult_high': 1.2947744566960186, 'w_ma': 0.379190743123905}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.222 low=1.249  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 12: a=0.516 ml=1.249 mh=1.222 w=0.387 => CV=4258.9  VAL=2590.2  (246s)
+[I 2026-04-23 19:31:12,624] Trial 12 finished with value: 4258.875 and parameters: {'alpha': 0.5162585984699695, 'mult_low': 1.2489487138138442, 'mult_high': 1.221918382286734, 'w_ma': 0.3868485468263021}. Best is trial 0 with value: 4212.775.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.296 low=1.184  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 13: a=0.559 ml=1.184 mh=1.296 w=0.348 => CV=4210.3  VAL=2680.8  (256s)
+[I 2026-04-23 19:35:28,224] Trial 13 finished with value: 4210.325000000001 and parameters: {'alpha': 0.5590203677098774, 'mult_low': 1.1843184650177294, 'mult_high': 1.2962468107284693, 'w_ma': 0.3481131059101231}. Best is trial 13 with value: 4210.325000000001.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=152/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] per-SKU mult: high(>=q0.75)=1.192 low=1.173  n_high=150/599
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 5 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+  trial 14: a=0.581 ml=1.173 mh=1.192 w=0.338 => CV=4232.2  VAL=2611.4  (273s)
+[I 2026-04-23 19:40:01,271] Trial 14 finished with value: 4232.25 and parameters: {'alpha': 0.5813428492464154, 'mult_low': 1.1731901672544072, 'mult_high': 1.1918987771673257, 'w_ma': 0.33800656001887974}. Best is trial 13 with value: 4210.325000000001.
+
+=== OPTUNA-BIN DONE (15 trials) ===
+best CV: 4,210.33  (champion CV: 4,249.05)
+best params: {'alpha': 0.5590203677098774, 'mult_low': 1.1843184650177294, 'mult_high': 1.2962468107284693, 'w_ma': 0.3481131059101231}
+
+Top 5 by CV:
+  a=0.559 ml=1.184 mh=1.296 w=0.348 => CV=4210.3  VAL=2680.8
+  a=0.594 ml=1.238 mh=1.193 w=0.350 => CV=4212.8  VAL=2635.4
+  a=0.581 ml=1.173 mh=1.192 w=0.338 => CV=4232.2  VAL=2611.4
+  a=0.516 ml=1.237 mh=1.286 w=0.402 => CV=4238.3  VAL=2631.2
+  a=0.508 ml=1.227 mh=1.295 w=0.379 => CV=4250.9  VAL=2634.2
+
+Top 5 by VAL:
+  a=0.576 ml=1.131 mh=1.073 w=0.273 => CV=4322.0  VAL=2552.8
+  a=0.653 ml=1.035 mh=1.017 w=0.292 => CV=4308.4  VAL=2570.6
+  a=0.614 ml=1.196 mh=0.980 w=0.329 => CV=4340.1  VAL=2576.8
+  a=0.539 ml=1.039 mh=0.923 w=0.417 => CV=4579.1  VAL=2589.6
+  a=0.516 ml=1.249 mh=1.222 w=0.387 => CV=4258.9  VAL=2590.2
+
+CV+VAL-gated winner (VAL within 30 EUR of 2595.6):
+  a=0.581 ml=1.173 mh=1.192 w=0.338 => CV=4232.2  VAL=2611.4
+Saved optuna_diverse5_bin.json

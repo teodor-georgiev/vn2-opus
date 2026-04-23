@@ -1,0 +1,34 @@
+{
+  "description": "Optuna-joint trial 15 (16-dim, 30 trials, seeded with prior winner).",
+  "cv_value": 3617.45,
+  "gate_result": {
+    "cv_mean": 3617.4500000000003,
+    "val": 2906.6000000000004,
+    "val_rel_vs_baseline": 0.01807355516637491,
+    "flagged": "False",
+    "reason": "",
+    "sacred": 3708.8
+  },
+  "weights": {
+    "w_ma": 0.2606457279368368,
+    "w_lgb_share": 0.5871221975359431,
+    "multiplier": 1.0566316410456784,
+    "safety_units": 0.3020454313843244
+  },
+  "lgb_params": {
+    "n_estimators": 236,
+    "learning_rate": 0.051958094807713705,
+    "num_leaves": 33,
+    "min_child_samples": 12,
+    "subsample": 0.8134151339375717,
+    "colsample_bytree": 0.8997690668786013,
+    "reg_alpha": 0.23451813894614454,
+    "reg_lambda": 0.10667342974418059
+  },
+  "cb_params": {
+    "iterations": 241,
+    "learning_rate": 0.059211597598653985,
+    "depth": 5,
+    "l2_leaf_reg": 5.839080032346741
+  }
+}

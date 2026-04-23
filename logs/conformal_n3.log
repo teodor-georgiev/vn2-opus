@@ -1,0 +1,130 @@
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\core.py:683: UserWarning: The following series were dropped completely due to the transformations and features: ['0_126', '0_182', '10_126', '11_126', '12_124', '13_103', ...].
+These series won't show up if you use `MLForecast.forecast_fitted_values()`.
+You can set `dropna=False` or use transformations that require less samples to mitigate this
+  warnings.warn(
+
+>>> conf_cap_a0.75_m1.0  (n_windows=3, h=11)
+Traceback (most recent call last):
+  File "J:\Toni\Vibing\VN2_Opus\run_conformal_costaware.py", line 75, in <module>
+    main()
+    ~~~~^^
+  File "J:\Toni\Vibing\VN2_Opus\run_conformal_costaware.py", line 48, in main
+    results = score_policy_on_folds(
+        policy_factory=factory,
+    ...<2 lines>...
+        alpha=alpha, n_workers=args.workers,
+    )
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 236, in score_policy_on_folds
+    outs = [_run_one_window(args) for _, args in tasks]
+            ~~~~~~~~~~~~~~~^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 188, in _run_one_window
+    res = run_window(
+        full_sales=full_sales,
+    ...<4 lines>...
+        policy_fn=wrapper,
+    )
+  File "J:\Toni\Vibing\VN2_Opus\simulation.py", line 260, in run_window
+    return sim.run_simulation(policy_fn)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\simulation.py", line 160, in run_simulation
+    order = order_policy_fn(self, round_idx, sales_hist)
+  File "J:\Toni\Vibing\VN2_Opus\benchmark\cv_harness.py", line 106, in __call__
+    order = self.inner(sim, round_idx, sales_hist)
+  File "J:\Toni\Vibing\VN2_Opus\policies.py", line 1129, in __call__
+    self._fit(sales_hist, sim.in_stock)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\policies.py", line 1106, in _fit
+    self._forecaster.fit(sales_hist, in_stock)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "J:\Toni\Vibing\VN2_Opus\forecaster.py", line 503, in fit
+    self.model.fit(long_df, **fit_kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 609, in fit
+    self._cs_df = self._conformity_scores(
+                  ~~~~~~~~~~~~~~~~~~~~~~~^
+        df=df,
+        ^^^^^^
+    ...<10 lines>...
+        as_numpy=as_numpy,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 366, in _conformity_scores
+    cv_results = self.cross_validation(
+        df=df,
+    ...<12 lines>...
+        as_numpy=as_numpy,
+    )
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 1012, in cross_validation
+    self.fit(
+    ~~~~~~~~^
+        train,
+        ^^^^^^
+    ...<12 lines>...
+        validate_data=False,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 703, in fit
+    self.fit_models(X, y, models_fit_kwargs)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 328, in fit_models
+    self.models_[name] = fit_model(
+                         ~~~~~~~~~^
+        model, X, y, self.ts.weight_col, model_fit_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\mlforecast\forecast.py", line 308, in fit_model
+    return clone(model).fit(X, y, **fit_kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\sklearn.py", line 1398, in fit
+    super().fit(
+    ~~~~~~~~~~~^
+        X,
+        ^^
+    ...<11 lines>...
+        init_model=init_model,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\sklearn.py", line 1049, in fit
+    self._Booster = train(
+                    ~~~~~^
+        params=params,
+        ^^^^^^^^^^^^^^
+    ...<6 lines>...
+        callbacks=callbacks,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\engine.py", line 297, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\basic.py", line 3656, in __init__
+    train_set.construct()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\basic.py", line 2590, in construct
+    self._lazy_init(
+    ~~~~~~~~~~~~~~~^
+        data=self.data,
+        ^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        position=self.position,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\basic.py", line 2123, in _lazy_init
+    data, feature_name, categorical_feature, self.pandas_categorical = _data_from_pandas(
+                                                                       ~~~~~~~~~~~~~~~~~^
+        data=data,
+        ^^^^^^^^^^
+    ...<2 lines>...
+        pandas_categorical=self.pandas_categorical,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\miniconda\envs\forecasting_2026\Lib\site-packages\lightgbm\basic.py", line 834, in _data_from_pandas
+    raise ValueError("Input data must be 2 dimensional and non empty.")
+ValueError: Input data must be 2 dimensional and non empty.

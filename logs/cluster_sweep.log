@@ -1,0 +1,24 @@
+
+===== Cluster k=4 =====
+
+[GATE] Ensemble [champion_cluster_4]
+  CV mean: 4,823.65  (baseline 3,654, delta +1170)
+  VAL:     2,824.60  (baseline 2,855, -1.1%)
+  SACRED:  3,586.20  (h=1,694, s=1,892)
+elapsed: 50.2s
+
+===== Cluster k=8 =====
+
+[GATE] Ensemble [champion_cluster_8]
+  CV mean: 4,819.38  (baseline 3,654, delta +1165)
+  VAL:     2,832.00  (baseline 2,855, -0.8%)
+  SACRED:  3,581.40  (h=1,691, s=1,890)
+elapsed: 44.2s
+
+===== Cluster k=12 =====
+
+[GATE] Ensemble [champion_cluster_12]
+  CV mean: 4,831.30  (baseline 3,654, delta +1177)
+  VAL:     2,835.80  (baseline 2,855, -0.7%)
+  SACRED:  3,582.00  (h=1,694, s=1,888)
+elapsed: 38.6s

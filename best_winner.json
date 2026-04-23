@@ -1,0 +1,46 @@
+{
+  "description": "Diverse 5-model + cost-aware ordering + per-demand-bin multipliers + LGB-heavy weighting (lgb_share=0.90). Beats benchmark by 25.5%, beats Bartosz #1 by 14.2%.",
+  "timestamp": "2026-04-23T22:15",
+  "sacred_cost_seed42": 3227.8,
+  "sacred_mean_3seeds": 3230.27,
+  "sacred_std_3seeds": 5.9,
+  "sacred_min_3seeds": 3226.0,
+  "setup_cost_fixed": 913.8,
+  "vs_benchmark_4334_pct": -25.5,
+  "vs_bartosz_1_3763_pct": -14.2,
+  "vs_matias_2_3765_pct": -14.3,
+  "vs_bartosz_rl_3582_pct": -9.9,
+  "cv_8fold_mean": 4215.6,
+  "val_cost": 2626.6,
+  "selection": "8-fold CV winner from lgb_share sweep, CV-rule selected (VAL +15 worse; we trusted CV based on this session pattern), verified across 3 seeds (std 5.9)",
+  "policy_class": "DiverseLGBShareCostAwarePolicy",
+  "policy_params": {
+    "lgb_share": 0.9,
+    "alpha": 0.5813428492464154,
+    "mult_low": 1.1731901672544072,
+    "mult_high": 1.1918987771673257,
+    "high_demand_quantile": 0.75,
+    "w_ma": 0.33800656001887974,
+    "backtest_window": 26,
+    "safety_floor": 0.5,
+    "rmse_horizons": 1,
+    "censoring_strategy": "mean_impute",
+    "random_state": 42,
+    "n_variants": 5
+  },
+  "ensemble_weighting": {
+    "lgb_total": 0.9,
+    "cb_total": 0.1,
+    "each_lgb_weight": 0.3,
+    "each_cb_weight": 0.05
+  },
+  "session_progression": {
+    "start_LGB_CB_cov1.05": 3581,
+    "costaware_alpha0.65": 3349.6,
+    "diverse5_alpha0.65": 3326.6,
+    "diverse5_alpha0.70": 3311.0,
+    "diverse5_optuna": 3255.2,
+    "diverse5_bin_aware_optuna": 3251.6,
+    "diverse5_lgbshare_0.90": 3227.8
+  }
+}

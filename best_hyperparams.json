@@ -1,0 +1,21 @@
+{
+  "description": "Optuna best trial (study: 20 trials, MLPointPolicy cov=2 x1.05 over 4 CV folds).",
+  "outcome_summary": "CV=3706, VAL=2916, SACRED=3858. Tuned version is WORSE on sacred than untuned defaults (SACRED=3786). Optuna overfits CV; not recommended for use. Kept for reproducibility.",
+  "timestamp": "2026-04-21T15:08",
+  "lgb_params": {
+    "n_estimators": 168,
+    "learning_rate": 0.02335565937782791,
+    "num_leaves": 29,
+    "min_child_samples": 10,
+    "subsample": 0.9718790609370292,
+    "colsample_bytree": 0.9232481518257668,
+    "reg_alpha": 0.6334037565104235,
+    "reg_lambda": 0.8714605901877177
+  },
+  "cb_params": {
+    "iterations": 341,
+    "learning_rate": 0.029126629206623567,
+    "depth": 9,
+    "l2_leaf_reg": 5.854080177240856
+  }
+}

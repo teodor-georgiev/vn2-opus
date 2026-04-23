@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# CatBoost training artifacts (regenerated on every run)
+catboost_info/
+
+# PDF page PNGs — regenerate from pdf/Bartoz_deep.pdf via pdf/_extract_bartoz.py
+pdf/pages/
+pdf/test_p1.png
+
+# Matias Alvo's own training data (GBs, not ours — cloned from his repo)
+references/matias_alvo/data_files/favorita*/
+references/matias_alvo/__pycache__/
+
+# Runtime / temp files
+*.log.bak
+*.tmp
+diag.log
+diag_out.log
+stacked_smoke.log
+stacked_err.log
+stacked_out.log
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code project-local settings (personal)
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# OS
+.DS_Store
+Thumbs.db

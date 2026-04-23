@@ -1,0 +1,100 @@
+[diverse9_8f] folds=['cv0', 'cv1', 'cv2', 'cv3', 'cv4', 'cv5', 'cv6', 'cv7'] val=True alpha=0.65 mult=1.0 w_ma=0.25
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+    [diverse] fitting 5-model diverse forecaster...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit done, predicting...
+    [diverse] got 9 models: ['lgbm_default', 'lgbm_shallow', 'lgbm_tweedie', 'catboost_default', 'catboost_deep', 'lgbm_deep', 'lgbm_poisson', 'lgbm_quantile_median', 'catboost_mae']
+    [diverse] backtest for sigma (re-fitting 5 models on train-W)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse] fit complete.
+
+=== diverse9_8f ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,079.60      1,728.60       4,351.00    5.87     0.67    -4.85              3.44
+cv1           3,675.60      1,215.60       2,460.00    6.40     0.72    -6.11              3.80
+cv2           4,415.80        984.80       3,431.00    7.76     0.73    -7.59              4.69
+cv3           3,312.60      1,451.60       1,861.00    5.97     0.68    -5.72              3.30
+cv4           3,373.80      1,183.80       2,190.00    6.28     0.70    -5.95              3.67
+cv5           3,172.60      1,336.60       1,836.00    6.54     0.72    -6.13              3.80
+cv6           7,830.00      1,779.00       6,051.00   10.58     0.72    -9.99              6.36
+cv7           3,305.60      1,333.60       1,972.00    5.96     0.70    -5.57              3.54
+  MEAN  competition_cost = 4,395.70  (holding=1,376.70, shortage=3,019.00)
+  MEAN  forecast MAE=6.92  WAPE=0.705  bias=-6.49  pinball@0.833=4.077
+  VAL   competition_cost = 2,542.60  (holding=1,429.60, shortage=1,113.00)
+  VAL   forecast MAE=5.28  WAPE=0.676  bias=-4.88  pinball@0.833=3.149
+
+[diverse9_8f] wall-time: 358.7s

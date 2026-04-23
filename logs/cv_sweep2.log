@@ -1,0 +1,157 @@
+
+Running: ML Point cov=2
+
+=== ML Point cov=2 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           4,176.40      1,814.40       2,362.00    3.11     0.53     0.54
+cv1           3,722.60      1,412.60       2,310.00    2.85     0.48     0.33
+cv2           3,664.80      1,379.80       2,285.00    2.72     0.48     0.25
+cv3           3,564.40      1,515.40       2,049.00    2.73     0.49     0.41
+  MEAN  competition_cost = 3,782.05  (holding=1,530.55, shortage=2,251.50)
+  MEAN  forecast MAE=2.85  WAPE=0.494  bias=+0.38
+  VAL   competition_cost = 2,948.80  (holding=1,730.80, shortage=1,218.00)
+  VAL   forecast MAE=2.45  WAPE=0.482  bias=+1.05
+
+Running: ML Point cov=3
+
+=== ML Point cov=3 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,020.80      3,790.80       1,230.00    4.30     0.49     0.83
+cv1           4,183.60      3,162.60       1,021.00    3.83     0.43     0.58
+cv2           4,222.60      3,253.60         969.00    3.90     0.43     0.23
+cv3           4,158.80      3,241.80         917.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,396.45  (holding=3,362.20, shortage=1,034.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,084.40  (holding=3,637.40, shortage=447.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=4
+
+=== ML Point cov=4 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           6,616.80      6,024.80         592.00    5.42     0.45     1.11
+cv1           5,768.20      5,199.20         569.00    4.66     0.40     0.78
+cv2           6,055.40      5,627.40         428.00    5.21     0.40     0.13
+cv3           5,668.00      5,283.00         385.00    4.36     0.39     0.75
+  MEAN  competition_cost = 6,027.10  (holding=5,533.60, shortage=493.50)
+  MEAN  forecast MAE=4.91  WAPE=0.410  bias=+0.69
+  VAL   competition_cost = 6,042.80  (holding=5,844.80, shortage=198.00)
+  VAL   forecast MAE=4.32  WAPE=0.399  bias=+1.69
+
+Running: ML Point cov=3 x1.05
+
+=== ML Point cov=3 x1.05 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,207.40      4,102.40       1,105.00    4.30     0.49     0.83
+cv1           4,375.00      3,458.00         917.00    3.83     0.43     0.58
+cv2           4,438.00      3,573.00         865.00    3.90     0.43     0.23
+cv3           4,386.00      3,567.00         819.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,601.60  (holding=3,675.10, shortage=926.50)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,376.60  (holding=3,997.60, shortage=379.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 x1.10
+
+=== ML Point cov=3 x1.10 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,403.20      4,416.20         987.00    4.30     0.49     0.83
+cv1           4,598.40      3,763.40         835.00    3.83     0.43     0.58
+cv2           4,641.20      3,867.20         774.00    3.90     0.43     0.23
+cv3           4,623.60      3,890.60         733.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,816.60  (holding=3,984.35, shortage=832.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,645.20  (holding=4,308.20, shortage=337.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 x1.20
+
+=== ML Point cov=3 x1.20 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,862.20      5,067.20         795.00    4.30     0.49     0.83
+cv1           5,094.20      4,387.20         707.00    3.83     0.43     0.58
+cv2           5,093.40      4,451.40         642.00    3.90     0.43     0.23
+cv3           5,068.60      4,494.60         574.00    3.64     0.43     0.55
+  MEAN  competition_cost = 5,279.60  (holding=4,600.10, shortage=679.50)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 5,190.00  (holding=4,934.00, shortage=256.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 x1.30
+
+=== ML Point cov=3 x1.30 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           6,366.00      5,720.00         646.00    4.30     0.49     0.83
+cv1           5,637.20      5,031.20         606.00    3.83     0.43     0.58
+cv2           5,616.80      5,081.80         535.00    3.90     0.43     0.23
+cv3           5,534.00      5,073.00         461.00    3.64     0.43     0.55
+  MEAN  competition_cost = 5,788.50  (holding=5,226.50, shortage=562.00)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 5,760.40  (holding=5,550.40, shortage=210.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 +1u
+
+=== ML Point cov=3 +1u ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,279.00      4,386.00         893.00    4.30     0.49     0.83
+cv1           4,467.40      3,765.40         702.00    3.83     0.43     0.58
+cv2           4,590.00      3,873.00         717.00    3.90     0.43     0.23
+cv3           4,547.40      3,874.40         673.00    3.64     0.43     0.55
+  MEAN  competition_cost = 4,720.95  (holding=3,974.70, shortage=746.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 4,517.80  (holding=4,278.80, shortage=239.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 +2u
+
+=== ML Point cov=3 +2u ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,702.60      5,026.60         676.00    4.30     0.49     0.83
+cv1           4,907.20      4,409.20         498.00    3.83     0.43     0.58
+cv2           5,120.40      4,538.40         582.00    3.90     0.43     0.23
+cv3           5,083.20      4,546.20         537.00    3.64     0.43     0.55
+  MEAN  competition_cost = 5,203.35  (holding=4,630.10, shortage=573.25)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 5,099.60  (holding=4,960.60, shortage=139.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+Running: ML Point cov=3 +3u
+
+=== ML Point cov=3 +3u ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           6,235.60      5,696.60         539.00    4.30     0.49     0.83
+cv1           5,450.80      5,080.80         370.00    3.83     0.43     0.58
+cv2           5,710.60      5,220.60         490.00    3.90     0.43     0.23
+cv3           5,693.20      5,236.20         457.00    3.64     0.43     0.55
+  MEAN  competition_cost = 5,772.55  (holding=5,308.55, shortage=464.00)
+  MEAN  forecast MAE=3.92  WAPE=0.444  bias=+0.55
+  VAL   competition_cost = 5,738.40  (holding=5,658.40, shortage=80.00)
+  VAL   forecast MAE=3.39  WAPE=0.434  bias=+1.46
+
+
+================================================================================
+  SWEEP 2 SUMMARY  (target 4,334 | Matias 3,765)
+================================================================================
+  Policy                                      CV mean        VAL  holding shortage
+  ------------------------------------------------------------------------------
+  ML Point cov=2                                3,782      2,949    1,531    2,252
+  ML Point cov=3                                4,396      4,084    3,362    1,034
+  ML Point cov=4                                6,027      6,043    5,534      494
+  ML Point cov=3 x1.05                          4,602      4,377    3,675      926
+  ML Point cov=3 x1.10                          4,817      4,645    3,984      832
+  ML Point cov=3 x1.20                          5,280      5,190    4,600      680
+  ML Point cov=3 x1.30                          5,788      5,760    5,226      562
+  ML Point cov=3 +1u                            4,721      4,518    3,975      746
+  ML Point cov=3 +2u                            5,203      5,100    4,630      573
+  ML Point cov=3 +3u                            5,773      5,738    5,309      464

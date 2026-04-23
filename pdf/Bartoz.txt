@@ -1,0 +1,433 @@
+=== PAGE 1 ===
+Deep Learning for Demand Forecasting
+Reinforcement Learning for Inventory Decisions
+Bartosz Szabłowski
+
+=== PAGE 2 ===
+Inventory Competition
+Data:
+Weekly data for around ~3 years of history
+599 Store-Product time series
+Each week, you can see: current stock + incoming deliveries (in-transit)
+Order at end of week t → Delivered at start of week t+3 (2 weeks lead time)
+Objective: Minimize holding ( 0.2€ / unit ) & shortage ( 1.0€ / unit ) costs
+
+=== PAGE 3 ===
+Want the full details?
+
+=== PAGE 4 ===
+Final Pipeline used in the winning VN2 solution
+Stage 1: Global Model learns demand patterns and forecasts W+1 ... W+3
+Stage 2: Ordering policy uses forecast + current state to generate cost-aware orders for Week +3
+
+=== PAGE 5 ===
+If you like the nerdy details...
+
+=== PAGE 6 ===
+What Won vs What Was Intended
+Forecast Policy
+Competition Benchmark
+Baseline ARIMA
+(Moving Average with Seasonal Weights)
+Winner
+My Own Benchmark Global Model (Catboost) Cost-aware ordering policy
+Target Solution Deep Learning for Forecasting Reinforcement Learning
+Finished after the competition and will show today
+
+=== PAGE 7 ===
+Deep Learning for Demand Forecasting
+
+=== PAGE 8 ===
+Deep Learning for Demand Forecasting
+Input & Target Engineering: Sliding Windows with Dynamic Scaling
+Observation Creation
+Past Window History | (Context len): L = 20
+X = sales[t-L : t]
+stock = in_stock[t-L : t]
+Scale Factor | (Scale Factor Window): scale_len = 53
+S = max( mean( sales[t-scale_len : t] | in_stock ) * scale_len , 1 )
+Future Targets | (Horizon): H = 3
+Y = sales[t+1 : t+H]
+M = in_stock[t+1 : t+H]
+Static Covariates | IDs
+store_id
+product_id
+Calendar Feature
+week = number of week of the year
+Scaling & Standardization
+Scaling
+X_scaled = X / S
+Y_scaled = Y / S
+Standardization | FIT on train set only | μ, σ = mean/std (X_scaled based on train set only)
+X_norm = (X_scaled - μ) / σ
+
+=== PAGE 9 ===
+Deep Learning for Demand Forecasting
+Augmentation
+Train vs Eval Mode in Pytorch
+train() stochastic behavior ON (dropout / augmentation)
+eval() deterministic behavior (no augmentation)
+
+=== PAGE 10 ===
+Deep Learning for Demand Forecasting
+Augmentation
+Why Augmentation?
+Reduce overfitting & don’t memorize specific weeks/IDs
+Improve generalization & unseen patterns
+Stay stable under imperfect data (noise, gaps, stockouts)
+TS has far less data than NLP/CV, so augmentation injects diversity
+
+=== PAGE 11 ===
+Deep Learning for Demand Forecasting
+Augmentation
+noitazidradnatS
+&
+gnilacS
+noitatnemguA
+Transformation Week ID [ Store, Product ] X
+Raw 27 [ 61, 24 ]
+Scaling 27 [ 61, 24 ]
+Standardization 27 [ 61, 24 ]
+TimeAugmenter 27 [ 61, 24 ]
+WeekAugmenter 28 [ 61, 24 ]
+StaticCovAugmenter 28 [ 5, 24 ]
+Input Dropout 28 [ 5, 24 ]
+
+=== PAGE 12 ===
+Deep Learning for Demand Forecasting
+Static covariates [ Store | Product ] → Embeddings
+
+=== PAGE 13 ===
+Deep Learning for Demand Forecasting
+Static covariates [ Store | Product ] → Embeddings
+Embedding dimension Embedding dimension
+Store 1 Product 1
+Store 2 Product 2
+Store 3 Product 3
+. . . . . .
+Store n Product m
+Embeddings are learned lookup tables (matrices): each Store ID and Product ID maps to a dense vector
+
+=== PAGE 14 ===
+Deep Learning for Demand Forecasting
+TCN: Temporal Convolutional Network
+
+=== PAGE 15 ===
+Deep Learning for Demand Forecasting
+TCN: Temporal Convolutional Network
+Input Projection
+1x1 Conv projects:
+→ 2 input channels (sales, stock)
+→ into hidden channels at each timestep
+Channel mixing only, no temporal mixing
+
+=== PAGE 16 ===
+Deep Learning for Demand Forecasting
+TCN: Temporal Convolutional Network
+
+=== PAGE 17 ===
+Deep Learning for Demand Forecasting
+TCN: Temporal Convolutional Network
+Receptive Field Growth with Dilation
+→ From Local Patterns to Expanding Memory
+
+=== PAGE 18 ===
+Deep Learning for Demand Forecasting
+TCN: Temporal Convolutional Network
+h_last = h[ : , -1 ] → [hidden]
+Each layer is causal → no future leakage
+Dilation makes the receptive field cover
+the whole context window
+
+=== PAGE 19 ===
+Deep Learning for Demand Forecasting
+FiLM: Feature-Wise Linear Modulation
+
+=== PAGE 20 ===
+Deep Learning for Demand Forecasting
+FiLM: Feature-Wise Linear Modulation
+Why do we want to combine context with ID embeddings?
+Similar context ≠ Similar future
+Stores/Products differ in level, volatility, intermittency, trend, and seasonality
+We want a global model + local adaptation
+Static IDs are a cheap way to encode “which series is this?"
+One Global Model, Many Behaviors
+
+=== PAGE 21 ===
+Deep Learning for Demand Forecasting
+FiLM: Feature-Wise Linear Modulation
+⊕
+Why not simple concatenation (TCN Embeddings)?
+Simple concat: u = [ z ; c] → MLP(u)
+Risk: shortcut learning
+Embedding can dominate
+The model may memorize IDs and rely on them instead of the context
+
+=== PAGE 22 ===
+Deep Learning for Demand Forecasting
+FiLM: Feature-Wise Linear Modulation
+FiLM generates scaling (γ) and shifting (β) factors
+from embeddings to modulate the context
+
+=== PAGE 23 ===
+Deep Learning for Demand Forecasting
+Decoder
+
+=== PAGE 24 ===
+Deep Learning for Demand Forecasting
+Seasonal Head
+
+=== PAGE 25 ===
+Deep Learning for Demand Forecasting
+Seasonal Head
+Week
+→ Fourier Terms sin / cos [ H , K ]
+IDs, per-series
+→ Fourier coefficients ( A / B )
+→ on/off gate
+Output
+→ Seasonal signal [ H ]
+A learnable Fourier seasonality layer that scales the forecast per horizon
+
+=== PAGE 26 ===
+Deep Learning for Demand Forecasting
+We have the architecture
+→ now let’s make it fit
+Data → Windows → Scaling → Augmentation → Forward → Loss → Backprop → Update
+
+=== PAGE 27 ===
+Deep Learning for Demand Forecasting
+Training Setup
+Objective: Masked Huber Loss (Smooth L1)
+Robust point loss: Smooth L1 / Huber (less sensitive to spikes & outliers)
+Multi-horizon: average error across all forecast steps ( t+1, t+2, t+3 )
+Stockout-aware: Mask M ignores periods where sales are censored by stockouts
+
+=== PAGE 28 ===
+Deep Learning for Demand Forecasting
+Training Setup
+Optimization: AdamW
+Betas = (0.9, 0.999) → gradient smoothing for stable steps
+Weight Decay → regularize NN weights
+decay: most weights
+no decay: bias + LayerNorm (don’t regularize scale/shift parameters)
+Stability: AMP (Mixed Precision) + Gradient Scaling + Gradient Clipping
+Learning Rate Schedule:
+base lr = 1e-4
+Warmup (LinearLR): start at 0.1 × lr → ramp to lr over 5 epochs
+Decay (CosineAnnealing): smoothly anneal lr → 1e-6 (eta_min)
+
+=== PAGE 29 ===
+Deep Learning for Demand Forecasting
+Training Setup
+Train Set Val Set Test Set
+Test Set: the same weeks as in the competition simulation
+Validation Set: the 8 decision weeks right before the test period
+Train Set: all earlier weeks (Use only windows whose targets end before val start)
+Criterion: Masked Huber Loss on scaled targets
+Monitored on the Train and Val Sets
+Early Stopping:
+Based on the Validation Criterion
+Save the best checkpoint whenever the validation criterion improves
+Stop after patience ( patience = 50 ) epochs without improvement
+
+=== PAGE 30 ===
+Deep Learning for Demand Forecasting
+We have a trained Model
+
+=== PAGE 31 ===
+Deep Learning for Demand Forecasting
+Can we still do something more?
+
+=== PAGE 32 ===
+Deep Learning for Demand Forecasting
+Can we still do something more?
+YES!
+
+=== PAGE 33 ===
+Deep Learning for Demand Forecasting
+Fine-tuning: Scale-Aware Calibration
+Start from the best validation checkpoint
+Small learning rate (3e-5), early stopping ON
+Loss on unscaled values (real magnitude)
+Why it matters in practice:
+Big volume items drive most revenue and operational risk, so errors there cost disproportionately more
+
+=== PAGE 34 ===
+Deep Learning for Demand Forecasting
+Forecast Evaluation on Test Set
+Test Set:
+Test Set
+the same weeks as in the competition simulation
+W0 W1 W2 W3 W4 W5 W6 W7 W8
+Forecast Evaluation on Test Set per forecast horizon
+Note:
+Horizons arenʼt comparable (different timestamps)
+Test Set
+Compare models within the same horizon.
+H1 H1 H1 H1 H1 H1 H1 H1
+H2 H2 H2 H2 H2 H2 H2
+H3 H3 H3 H3 H3 H3
+
+=== PAGE 35 ===
+Deep Learning for Demand Forecasting
+Forecast Evaluation on Test Set
+WAPE [%]
+Horizon 1 Horizon 2 Horizon 3
+Deep Learning 54.31 % 57.83 % 59.08 %
+Global Model [Catboost] 56.14 % 58.24 % 59.74 %
+ARIMA 56.65 % 58.42 % 60.29 %
+
+=== PAGE 36 ===
+Reinforcement Learning for Inventory Decisions
+Inventory Ordering as a Markov Decision Process (MDP)
+
+=== PAGE 37 ===
+Reinforcement Learning for Inventory Decisions
+Types of RL
+*Image inspired by Deep RL course on Hugging Face
+
+=== PAGE 38 ===
+Reinforcement Learning for Inventory Decisions
+REINFORCE algorithm
+etatS
+noitcA
+Vanilla policy gradient (policy-based RL):
+learn a stochastic policy that maps state → action
+Training loop:
+Run rollouts with the current policy
+Collect (state, action, reward)
+Compute episode Returns
+Update neural network weights to maximize expected return
+Outputs (parameters of the action distribution):
+discrete: action probabilities (softmax)
+continuous: parameters of an action distribution (like mean + std)
+Why a distribution?
+exploration is built-in: the agent must sample actions to try different decisions
+
+=== PAGE 39 ===
+Reinforcement Learning for Inventory Decisions
+REINFORCE algorithm
+etatS
+noitcA
+Vanilla policy gradient (policy-based RL):
+learn a stochastic policy that maps state → action
+Training loop:
+Run rollouts with the current policy
+Collect (state, action, reward)
+Compute episode Returns
+Update neural network weights to maximize expected return
+Outputs (parameters of the action distribution):
+discrete: action probabilities (softmax)
+continuous: parameters of an action distribution (like mean + std)
+Why a distribution?
+exploration is built-in: the agent must sample actions to try different decisions
+Main drawback: Returns come from full episodes, so many random factors add noise
+→ high-variance gradients, slower and less stable training
+
+=== PAGE 40 ===
+Reinforcement Learning for Inventory Decisions
+Actor - Critic
+
+=== PAGE 41 ===
+Reinforcement Learning for Inventory Decisions
+PPO (Proximal Policy Optimization)
+PPO stabilizes policy updates by limiting how much the policy can change per update
+Clipped objectives:
+prevents “too large” updates when the new policy deviates too much from the old one
+more stable learning
+GAE (Generalized Advantage Estimation):
+computes a low-noise advantage signal by mixing short- and long-term returns
+Why it is better than REINFORCE:
+lower-variance learning signal + safer updates
+
+=== PAGE 42 ===
+Reinforcement Learning for Inventory Decisions
+
+=== PAGE 43 ===
+Reinforcement Learning for Inventory Decisions
+What the actions mean
+Inventory projection
+Inputs:
+I0 - On hand
+T1, T2 - In transit
+d1, d2, d3 - Forecasted Demand
+Project inventory:
+E1 = max( I0 + T1 - d1, 0 )
+E2 = max( E1 + T2 - d2, 0 )
+Order Estimation Policy outputs two actions:
+multiplier ( between [0, 2] → tanh + 1.0 )
+buffer (non-negative → softplus )
+base = max( d3 - E2 , 0 )
+order = round( max( base × multiplier + buffer × scale_factor , 0) )
+
+=== PAGE 44 ===
+Reinforcement Learning for Inventory Decisions
+Build Nodes
+
+=== PAGE 45 ===
+Reinforcement Learning for Inventory Decisions
+Build Nodes Inventory physics
+Decision week t
+I0 ( On hand )
+(place order)
+t+1 Node (t+1)
+start t+1 transit t+1 demand t+1 end t+1 short t+1 Seasonal Head t+1
+t+2 Node (t+2)
+start t+2 transit t+2 demand t+2 end t+2 short t+2 Seasonal Head t+2
+t+3 Node (t+3)
+start t+3 transit t+3 demand t+3 end t+3 short t+3 Seasonal Head t+3
+
+=== PAGE 46 ===
+Reinforcement Learning for Inventory Decisions
+Node Embedding
+
+=== PAGE 47 ===
+Reinforcement Learning for Inventory Decisions
+Node Embedding
+
+=== PAGE 48 ===
+Reinforcement Learning for Inventory Decisions
+Chain Graph
+
+=== PAGE 49 ===
+Reinforcement Learning for Inventory Decisions
+Chain Graph
+
+=== PAGE 50 ===
+Reinforcement Learning for Inventory Decisions
+RL Training Setup
+1) Pretrained Demand Neural Network
+Frozen demand components provide 3-week demand forecasts
+2) Training Episodes Simulator - Each epoch samples:
+random initial inventory state
+random episode start date (only from training set)
+3) Build observations from Simulator & Forecast:
+Observation = [ on-hand inventory ( I0 ) + in-transit ( T1, T2 ) + predicted demand ( d1, d2, d3 ) ]
+All scaled by scale factor
+4) Roll out a stochastic policy
+Policy outputs mean + std
+Action is sampled from a squashed Gaussian Policy
+5) Reward
+Reward = negative inventory cost = - ( holding cost + shortage cost )
+6) Training with PPO + GAE
+Collect trajectories → advantages & returns
+Policy updated with clipped PPO objective + value loss + entropy bonus
+7) Validation
+Use deterministic action from the policy mean
+Early Stopping monitors validation total cost and selects the best checkpoint
+
+=== PAGE 51 ===
+Reinforcement Learning for Inventory Decisions
+Decision Evaluation on Test Set
+Total Cost (minus setup costs) Cost reduction [%]
+Reinforcement Learning 3582.2 17.3
+Cost-aware ordering policy 3763.2 13.2
+Competition Benchmark 4334
+
+=== PAGE 52 ===
+Key takeaways
+Small dataset & short test horizon
+→ better results may still be FART, no real robustness
+Slight improvement & much higher complexity
+→ is the extra effort really worth it?

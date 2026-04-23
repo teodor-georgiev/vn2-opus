@@ -1,0 +1,85 @@
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+J:\Toni\Vibing\VN2_Opus\tcn_forecaster.py:379: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  in_stock_a = in_stock_a.fillna(True).astype(bool)
+[tcn_cov2_m1.05] folds=['cv0', 'cv1', 'cv2', 'cv3'] val=True cov=2 mult=1.05 cfg_horizon=5 hidden=64
+
+=== tcn_cov2_m1.05 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           4,018.40      1,199.40       2,819.00    2.77     0.48    -0.80
+cv1           3,533.40      1,320.40       2,213.00    2.56     0.43    -0.07
+cv2           3,571.80      1,501.80       2,070.00    2.61     0.46     0.29
+cv3           3,686.60      1,846.60       1,840.00    2.80     0.50     0.52
+  MEAN  competition_cost = 3,702.55  (holding=1,467.05, shortage=2,235.50)
+  MEAN  forecast MAE=2.69  WAPE=0.466  bias=-0.01
+  VAL   competition_cost = 2,856.80  (holding=1,674.80, shortage=1,182.00)
+  VAL   forecast MAE=2.38  WAPE=0.468  bias=+0.84
+
+[tcn_cov2_m1.05] total wall-time: 1704.8s

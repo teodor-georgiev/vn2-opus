@@ -1,0 +1,149 @@
+Running experiment: cum_quantile  kwargs={}
+
+Running: CumQuantile cov=2 alpha=0.5 x1.0
+
+=== CumQuantile cov=2 alpha=0.5 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           4,033.80      2,216.80       1,817.00    3.48     0.60     1.27              1.74
+cv1           3,843.80      2,542.80       1,301.00    3.74     0.63     2.30              1.87
+cv2           3,773.80      1,249.80       2,524.00    2.59     0.45    -0.05              1.29
+cv3           3,750.60      1,926.60       1,824.00    3.05     0.55     0.95              1.53
+  MEAN  competition_cost = 3,850.50  (holding=1,984.00, shortage=1,866.50)
+  MEAN  forecast MAE=3.21  WAPE=0.556  bias=+1.12  pinball@0.833=1.607
+  VAL   competition_cost = 2,952.00  (holding=1,041.00, shortage=1,911.00)
+  VAL   forecast MAE=2.08  WAPE=0.411  bias=-0.13  pinball@0.833=1.042
+  SACRED: 4,370.60  (h=834.60, s=3,536.00)
+
+Running: CumQuantile cov=2 alpha=0.55 x1.0
+
+=== CumQuantile cov=2 alpha=0.55 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           4,105.80      2,574.80       1,531.00    3.78     0.65     1.86              1.80
+cv1           4,094.80      2,974.80       1,120.00    4.21     0.70     2.96              1.95
+cv2           3,640.40      1,450.40       2,190.00    2.66     0.46     0.39              1.31
+cv3           3,898.00      2,257.00       1,641.00    3.28     0.59     1.44              1.57
+  MEAN  competition_cost = 3,934.75  (holding=2,314.25, shortage=1,620.50)
+  MEAN  forecast MAE=3.48  WAPE=0.601  bias=+1.66  pinball@0.833=1.657
+  VAL   competition_cost = 2,872.20  (holding=1,333.20, shortage=1,539.00)
+  VAL   forecast MAE=2.19  WAPE=0.432  bias=+0.41  pinball@0.833=1.075
+  SACRED: 4,179.60  (h=921.60, s=3,258.00)
+
+Running: CumQuantile cov=2 alpha=0.6 x1.0
+
+=== CumQuantile cov=2 alpha=0.6 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           4,209.60      2,772.60       1,437.00    3.93     0.68     2.18              1.75
+cv1           4,306.00      3,410.00         896.00    4.68     0.78     3.68              1.97
+cv2           3,626.40      1,532.40       2,094.00    2.76     0.48     0.60              1.32
+cv3           4,019.60      2,482.60       1,537.00    3.43     0.61     1.79              1.54
+  MEAN  competition_cost = 4,040.40  (holding=2,549.40, shortage=1,491.00)
+  MEAN  forecast MAE=3.70  WAPE=0.639  bias=+2.06  pinball@0.833=1.645
+  VAL   competition_cost = 2,853.40  (holding=1,690.40, shortage=1,163.00)
+  VAL   forecast MAE=2.39  WAPE=0.471  bias=+1.00  pinball@0.833=1.096
+  SACRED: 3,998.20  (h=1,027.20, s=2,971.00)
+
+Running: CumQuantile cov=2 alpha=0.65 x1.0
+
+=== CumQuantile cov=2 alpha=0.65 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           4,353.00      3,139.00       1,214.00    4.27     0.73     2.73              1.73
+cv1           4,584.80      3,805.80         779.00    5.15     0.86     4.28              1.93
+cv2           3,543.20      1,705.20       1,838.00    2.85     0.50     1.00              1.27
+cv3           4,174.40      3,043.40       1,131.00    4.01     0.72     2.74              1.60
+  MEAN  competition_cost = 4,163.85  (holding=2,923.35, shortage=1,240.50)
+  MEAN  forecast MAE=4.07  WAPE=0.703  bias=+2.69  pinball@0.833=1.633
+  VAL   competition_cost = 2,912.60  (holding=1,902.60, shortage=1,010.00)
+  VAL   forecast MAE=2.60  WAPE=0.512  bias=+1.41  pinball@0.833=1.088
+  SACRED: 3,787.40  (h=1,238.40, s=2,549.00)
+
+Running: CumQuantile cov=2 alpha=0.7 x1.0
+
+=== CumQuantile cov=2 alpha=0.7 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           4,669.40      3,694.40         975.00    4.88     0.84     3.60              1.72
+cv1           4,956.00      4,309.00         647.00    5.72     0.96     5.00              1.86
+cv2           3,606.20      1,874.20       1,732.00    2.99     0.52     1.27              1.24
+cv3           4,266.40      3,298.40         968.00    4.30     0.77     3.20              1.51
+  MEAN  competition_cost = 4,374.50  (holding=3,294.00, shortage=1,080.50)
+  MEAN  forecast MAE=4.47  WAPE=0.772  bias=+3.27  pinball@0.833=1.583
+  VAL   competition_cost = 2,984.20  (holding=2,168.20, shortage=816.00)
+  VAL   forecast MAE=2.84  WAPE=0.560  bias=+1.89  pinball@0.833=1.043
+  SACRED: 3,681.60  (h=1,430.60, s=2,251.00)
+
+Running: CumQuantile cov=2 alpha=0.75 x1.0
+
+=== CumQuantile cov=2 alpha=0.75 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,046.60      4,263.60         783.00    5.51     0.95     4.50              1.63
+cv1           5,256.00      4,711.00         545.00    6.17     1.03     5.58              1.69
+cv2           3,637.80      2,171.80       1,466.00    3.26     0.57     1.79              1.18
+cv3           4,523.00      3,760.00         763.00    4.74     0.85     3.86              1.40
+  MEAN  competition_cost = 4,615.85  (holding=3,726.60, shortage=889.25)
+  MEAN  forecast MAE=4.92  WAPE=0.849  bias=+3.93  pinball@0.833=1.476
+  VAL   competition_cost = 3,061.60  (holding=2,335.60, shortage=726.00)
+  VAL   forecast MAE=2.99  WAPE=0.588  bias=+2.18  pinball@0.833=0.949
+  SACRED: 3,671.40  (h=1,623.40, s=2,048.00)
+
+Running: CumQuantile cov=2 alpha=0.833 x1.0
+
+=== CumQuantile cov=2 alpha=0.833 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,686.80      5,037.80         649.00    6.46     1.11     5.58              1.37
+cv1           6,078.20      5,735.20         343.00    7.46     1.25     7.08              1.37
+cv2           3,871.20      2,695.20       1,176.00    3.80     0.66     2.67              1.01
+cv3           6,057.80      5,709.80         348.00    7.00     1.25     6.60              1.30
+  MEAN  competition_cost = 5,423.50  (holding=4,794.50, shortage=629.00)
+  MEAN  forecast MAE=6.18  WAPE=1.069  bias=+5.48  pinball@0.833=1.264
+  VAL   competition_cost = 3,497.60  (holding=3,091.60, shortage=406.00)
+  VAL   forecast MAE=3.75  WAPE=0.739  bias=+3.28  pinball@0.833=0.782
+  SACRED: 3,724.60  (h=1,977.60, s=1,747.00)
+
+Running: CumQuantile cov=3 alpha=0.55 x1.0
+
+=== CumQuantile cov=3 alpha=0.55 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,698.80      4,998.80         700.00    5.04     0.57     2.45              2.40
+cv1           5,889.80      5,406.80         483.00    5.32     0.60     3.69              2.47
+cv2           4,102.80      3,182.80         920.00    3.87     0.42     0.02              1.93
+cv3           5,491.40      4,938.40         553.00    4.53     0.53     2.35              2.15
+  MEAN  competition_cost = 5,295.70  (holding=4,631.70, shortage=664.00)
+  MEAN  forecast MAE=4.69  WAPE=0.533  bias=+2.13  pinball@0.833=2.238
+  VAL   competition_cost = 3,779.00  (holding=3,217.00, shortage=562.00)
+  VAL   forecast MAE=3.05  WAPE=0.390  bias=+0.69  pinball@0.833=1.488
+  SACRED: 3,616.20  (h=2,060.20, s=1,556.00)
+
+Running: CumQuantile cov=3 alpha=0.65 x1.0
+
+=== CumQuantile cov=3 alpha=0.65 x1.0 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           6,520.00      6,022.00         498.00    5.90     0.67     3.89              2.36
+cv1           6,404.40      6,040.40         364.00    5.89     0.67     4.61              2.25
+cv2           4,669.80      4,001.80         668.00    4.24     0.46     1.32              1.92
+cv3           6,118.60      5,759.60         359.00    5.23     0.62     3.60              2.07
+  MEAN  competition_cost = 5,928.20  (holding=5,455.95, shortage=472.25)
+  MEAN  forecast MAE=5.31  WAPE=0.604  bias=+3.36  pinball@0.833=2.152
+  VAL   competition_cost = 4,259.80  (holding=3,870.80, shortage=389.00)
+  VAL   forecast MAE=3.38  WAPE=0.432  bias=+1.60  pinball@0.833=1.448
+  SACRED: 3,804.00  (h=2,542.00, s=1,262.00)
+
+================================================================================
+  Policy                                                CV mean      VAL   SACRED
+  ------------------------------------------------------------------------------
+  CumQuantile cov=2 alpha=0.5 x1.0                        3,851    2,952    4,371
+  CumQuantile cov=2 alpha=0.55 x1.0                       3,935    2,872    4,180
+  CumQuantile cov=2 alpha=0.6 x1.0                        4,040    2,853    3,998
+  CumQuantile cov=2 alpha=0.65 x1.0                       4,164    2,913    3,787
+  CumQuantile cov=2 alpha=0.7 x1.0                        4,375    2,984    3,682
+  CumQuantile cov=2 alpha=0.75 x1.0                       4,616    3,062    3,671
+  CumQuantile cov=2 alpha=0.833 x1.0                      5,424    3,498    3,725
+  CumQuantile cov=3 alpha=0.55 x1.0                       5,296    3,779    3,616
+  CumQuantile cov=3 alpha=0.65 x1.0                       5,928    4,260    3,804

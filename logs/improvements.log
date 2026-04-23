@@ -1,0 +1,94 @@
+
+======================================================================
+  (1) SEED-AVERAGED EVAL ON SACRED
+======================================================================
+
+  cov=2 x1.10 [5 seeds]
+  seed=42    comp_cost=3,664.40  (h=1,443.40, s=2,221.00)
+  seed=123   comp_cost=3,694.00  (h=1,432.00, s=2,262.00)
+  seed=456   comp_cost=3,732.00  (h=1,415.00, s=2,317.00)
+  seed=789   comp_cost=3,721.40  (h=1,439.40, s=2,282.00)
+  seed=1234  comp_cost=3,699.60  (h=1,436.60, s=2,263.00)
+
+  MEAN = 3,702.28  STD = 26.27  [range 3,664.40 .. 3,732.00]
+
+  cov=2 x1.05 [5 seeds]
+  seed=42    comp_cost=3,757.80  (h=1,343.80, s=2,414.00)
+  seed=123   comp_cost=3,800.60  (h=1,333.60, s=2,467.00)
+  seed=456   comp_cost=3,825.20  (h=1,314.20, s=2,511.00)
+  seed=789   comp_cost=3,796.00  (h=1,333.00, s=2,463.00)
+  seed=1234  comp_cost=3,785.00  (h=1,336.00, s=2,449.00)
+
+  MEAN = 3,792.92  STD = 24.53  [range 3,757.80 .. 3,825.20]
+
+
+======================================================================
+  (3) PER-SKU COVERAGE ROUTING
+======================================================================
+
+  SKU stats: n=599  mean avg demand=2.96  median=1.08
+  Volume rule   coverage distribution: {1: 263, 2: 241, 3: 95}
+  Syntetos rule coverage distribution: {1: 511, 2: 56, 3: 32}
+
+Running: Per-SKU [volume] x1.00
+
+=== Per-SKU [volume] x1.00 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           4,954.40      2,871.40       2,083.00    4.33     0.74     2.09
+cv1           4,397.00      2,448.00       1,949.00    4.16     0.70     1.97
+cv2           4,164.40      2,389.40       1,775.00    3.88     0.68     2.01
+cv3           4,055.20      2,471.20       1,584.00    3.72     0.67     1.94
+  MEAN  competition_cost = 4,392.75  (holding=2,545.00, shortage=1,847.75)
+  MEAN  forecast MAE=4.02  WAPE=0.696  bias=+2.00
+  VAL   competition_cost = 3,932.60  (holding=2,887.60, shortage=1,045.00)
+  VAL   forecast MAE=3.99  WAPE=0.786  bias=+2.80
+  SACRED competition_cost = 3,998.80 (h=2,064.80, s=1,934.00)
+
+Running: Per-SKU [volume] x1.10
+
+=== Per-SKU [volume] x1.10 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,225.00      3,366.00       1,859.00    4.33     0.74     2.09
+cv1           4,699.20      2,922.20       1,777.00    4.16     0.70     1.97
+cv2           4,463.80      2,856.80       1,607.00    3.88     0.68     2.01
+cv3           4,343.00      2,949.00       1,394.00    3.72     0.67     1.94
+  MEAN  competition_cost = 4,682.75  (holding=3,023.50, shortage=1,659.25)
+  MEAN  forecast MAE=4.02  WAPE=0.696  bias=+2.00
+  VAL   competition_cost = 4,310.40  (holding=3,385.40, shortage=925.00)
+  VAL   forecast MAE=3.99  WAPE=0.786  bias=+2.80
+  SACRED competition_cost = 4,191.60 (h=2,470.60, s=1,721.00)
+
+Running: Per-SKU [syntetos] x1.00
+
+=== Per-SKU [syntetos] x1.00 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,325.00      1,841.00       3,484.00    3.93     0.68    -0.02
+cv1           5,024.60      1,470.60       3,554.00    3.77     0.63    -0.17
+cv2           4,629.60      1,390.60       3,239.00    3.44     0.60    -0.14
+cv3           4,424.40      1,442.40       2,982.00    3.26     0.58    -0.15
+  MEAN  competition_cost = 4,850.90  (holding=1,536.15, shortage=3,314.75)
+  MEAN  forecast MAE=3.60  WAPE=0.623  bias=-0.12
+  VAL   competition_cost = 3,795.40  (holding=1,689.40, shortage=2,106.00)
+  VAL   forecast MAE=3.06  WAPE=0.603  bias=+0.62
+  SACRED competition_cost = 4,495.40 (h=1,283.40, s=3,212.00)
+
+Running: Per-SKU [syntetos] x1.10
+
+=== Per-SKU [syntetos] x1.10 ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias
+fold                                                                         
+cv0           5,413.00      2,162.00       3,251.00    3.93     0.68    -0.02
+cv1           5,096.00      1,777.00       3,319.00    3.77     0.63    -0.17
+cv2           4,696.80      1,678.80       3,018.00    3.44     0.60    -0.14
+cv3           4,467.00      1,725.00       2,742.00    3.26     0.58    -0.15
+  MEAN  competition_cost = 4,918.20  (holding=1,835.70, shortage=3,082.50)
+  MEAN  forecast MAE=3.60  WAPE=0.623  bias=-0.12
+  VAL   competition_cost = 3,924.00  (holding=2,003.00, shortage=1,921.00)
+  VAL   forecast MAE=3.06  WAPE=0.603  bias=+0.62
+  SACRED competition_cost = 4,454.80 (h=1,515.80, s=2,939.00)
+
+
+Done. Full history in benchmark/experiments.csv

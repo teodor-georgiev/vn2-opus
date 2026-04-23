@@ -1,0 +1,5 @@
+Policy,Net Cost,Net Holding,Net Shortage,Setup Cost,Total Cost
+Official Benchmark,5058.0,4432.0,626.0,913.8,5971.8
+Our Benchmark Replica,5335.4,4743.4,592.0,913.8,6249.2
+ML Point (3wk),4003.0000000000005,3059.0000000000005,944.0,913.8,4916.800000000001
+Winner (phi=0.1),4071.4,3213.4,858.0,913.8,4985.200000000001
