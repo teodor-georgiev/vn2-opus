@@ -39,6 +39,7 @@ def main():
         backtest_window=26, safety_floor=0.5, rmse_horizons=1,
         censoring_strategy="mean_impute", random_state=42, master=sim.master,
         n_variants=5,
+        categorical_features=True,
     )
     print("Running sacred sim with DiverseCostAware (5-model, Optuna-tuned)...")
     results = sim.run_simulation(policy)

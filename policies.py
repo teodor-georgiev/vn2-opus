@@ -1168,7 +1168,10 @@ class DiverseCostAwarePolicy:
                  mult_low:  "float | None" = None,
                  high_demand_quantile: float = 0.75,
                  bin_basis: str = "sku",  # "sku" (per-SKU mean) or "store" (per-store aggregate)
-                 recency_decay: "float | None" = None):
+                 recency_decay: "float | None" = None,
+                 hierarchical_features: bool = False,
+                 categorical_features: bool = False,
+                 intermittency_features: bool = False):
         self.alpha = alpha
         self.backtest_window = backtest_window
         self.safety_floor = safety_floor
@@ -1185,6 +1188,9 @@ class DiverseCostAwarePolicy:
         assert bin_basis in ("sku", "store"), f"bin_basis must be 'sku' or 'store', got {bin_basis!r}"
         self.bin_basis = bin_basis
         self.recency_decay = recency_decay
+        self.hierarchical_features = hierarchical_features
+        self.categorical_features = categorical_features
+        self.intermittency_features = intermittency_features
         self._sku_multiplier: pd.Series | None = None
         self._forecaster: DiverseDemandForecaster | None = None
         self._all_ml_forecasts: pd.DataFrame | None = None
@@ -1224,6 +1230,9 @@ class DiverseCostAwarePolicy:
             master=self.master, random_state=self.random_state,
             censoring_strategy=self.censoring_strategy, n_variants=self.n_variants,
             recency_decay=self.recency_decay,
+            hierarchical_features=self.hierarchical_features,
+            categorical_features=self.categorical_features,
+            intermittency_features=self.intermittency_features,
         )
         _log("fitting 5-model diverse forecaster...")
         self._forecaster.fit(sales_hist, in_stock)
@@ -1257,6 +1266,9 @@ class DiverseCostAwarePolicy:
             master=self.master, random_state=self.random_state,
             censoring_strategy=self.censoring_strategy, n_variants=self.n_variants,
             recency_decay=self.recency_decay,
+            hierarchical_features=self.hierarchical_features,
+            categorical_features=self.categorical_features,
+            intermittency_features=self.intermittency_features,
         )
         bt.fit(train, bt_is)
         bt_per = bt.predict_models(horizon=W)

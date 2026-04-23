@@ -1,0 +1,463 @@
+
+>>> champ_features_champion_baseline  hier=False cat=False intm=False
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+
+=== champ_features_champion_baseline ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,914.40      2,202.40       3,712.00    5.76     0.66    -4.65              2.90
+cv1           3,658.00      1,472.00       2,186.00    6.34     0.72    -6.01              3.23
+cv2           4,169.80      1,177.80       2,992.00    7.71     0.73    -7.53              3.99
+cv3           3,290.80      1,576.80       1,714.00    5.95     0.68    -5.69              2.89
+cv4           3,239.40      1,402.40       1,837.00    6.21     0.69    -5.85              3.10
+cv5           3,065.80      1,522.80       1,543.00    6.49     0.71    -6.05              3.28
+cv6           7,167.40      2,155.40       5,012.00   10.41     0.70    -9.75              5.36
+cv7           3,219.20      1,560.20       1,659.00    5.91     0.70    -5.51              3.00
+  MEAN  competition_cost = 4,215.60  (holding=1,633.73, shortage=2,581.88)
+  MEAN  forecast MAE=6.85  WAPE=0.698  bias=-6.38  pinball@0.833=3.470
+  VAL   competition_cost = 2,626.60  (holding=1,707.60, shortage=919.00)
+  VAL   forecast MAE=5.25  WAPE=0.671  bias=-4.82  pinball@0.833=2.643
+[champ_features_champion_baseline] wall-time: 307.2s
+
+>>> champ_features_only_hierarchical  hier=True cat=False intm=False
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+
+=== champ_features_only_hierarchical ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,742.60      1,971.60       3,771.00    5.79     0.66    -4.88              2.93
+cv1           3,757.40      1,781.40       1,976.00    6.19     0.70    -5.76              3.14
+cv2           4,274.60      1,171.60       3,103.00    7.75     0.73    -7.57              4.01
+cv3           3,230.00      1,361.00       1,869.00    6.02     0.68    -5.80              2.99
+cv4           3,177.40      1,390.40       1,787.00    6.23     0.69    -5.88              3.10
+cv5           3,089.60      1,517.60       1,572.00    6.52     0.71    -6.06              3.30
+cv6           7,329.00      2,158.00       5,171.00   10.41     0.70    -9.80              5.35
+cv7           3,244.40      1,399.40       1,845.00    6.03     0.71    -5.66              3.09
+  MEAN  competition_cost = 4,230.62  (holding=1,593.88, shortage=2,636.75)
+  MEAN  forecast MAE=6.87  WAPE=0.700  bias=-6.43  pinball@0.833=3.489
+  VAL   competition_cost = 2,566.40  (holding=1,675.40, shortage=891.00)
+  VAL   forecast MAE=5.25  WAPE=0.671  bias=-4.83  pinball@0.833=2.634
+[champ_features_only_hierarchical] wall-time: 387.3s
+
+>>> champ_features_only_categorical  hier=False cat=True intm=False
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+
+=== champ_features_only_categorical ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,935.40      2,204.40       3,731.00    5.75     0.66    -4.65              2.89
+cv1           3,643.60      1,476.60       2,167.00    6.33     0.72    -6.00              3.23
+cv2           4,140.40      1,182.40       2,958.00    7.69     0.73    -7.51              3.97
+cv3           3,298.40      1,563.40       1,735.00    5.96     0.68    -5.70              2.90
+cv4           3,255.80      1,383.80       1,872.00    6.23     0.69    -5.88              3.12
+cv5           3,048.20      1,519.20       1,529.00    6.49     0.71    -6.05              3.28
+cv6           7,011.40      2,108.40       4,903.00   10.39     0.70    -9.75              5.35
+cv7           3,197.20      1,565.20       1,632.00    5.90     0.70    -5.49              3.00
+  MEAN  competition_cost = 4,191.30  (holding=1,625.43, shortage=2,565.88)
+  MEAN  forecast MAE=6.84  WAPE=0.697  bias=-6.38  pinball@0.833=3.466
+  VAL   competition_cost = 2,615.60  (holding=1,729.60, shortage=886.00)
+  VAL   forecast MAE=5.22  WAPE=0.668  bias=-4.79  pinball@0.833=2.624
+[champ_features_only_categorical] wall-time: 617.8s
+
+>>> champ_features_only_intermittency  hier=False cat=False intm=True
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+
+=== champ_features_only_intermittency ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,941.00      2,196.00       3,745.00    5.78     0.66    -4.66              2.91
+cv1           3,669.80      1,517.80       2,152.00    6.30     0.71    -5.97              3.21
+cv2           4,139.40      1,169.40       2,970.00    7.71     0.73    -7.53              3.98
+cv3           3,277.80      1,545.80       1,732.00    5.97     0.68    -5.71              2.90
+cv4           3,221.20      1,380.20       1,841.00    6.22     0.69    -5.87              3.11
+cv5           3,061.00      1,502.00       1,559.00    6.50     0.71    -6.06              3.29
+cv6           7,241.40      2,111.40       5,130.00   10.45     0.71    -9.81              5.38
+cv7           3,192.40      1,572.40       1,620.00    5.89     0.70    -5.49              2.99
+  MEAN  competition_cost = 4,218.00  (holding=1,624.38, shortage=2,593.62)
+  MEAN  forecast MAE=6.85  WAPE=0.698  bias=-6.39  pinball@0.833=3.472
+  VAL   competition_cost = 2,625.00  (holding=1,714.00, shortage=911.00)
+  VAL   forecast MAE=5.24  WAPE=0.670  bias=-4.81  pinball@0.833=2.634
+[champ_features_only_intermittency] wall-time: 458.6s
+
+>>> champ_features_all_three  hier=True cat=True intm=True
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+    [diverse-share] fitting 5-model forecaster (lgb_share=0.90)...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] ml_df shape=(599, 11)  (w_lgb=0.300 per, w_cb=0.050 per)
+    [diverse-share] backtest for sigma...
+J:\Toni\Vibing\VN2_Opus\forecaster.py:214: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
+  long = sales_clean.stack(dropna=False).reset_index()
+    [diverse-share] fit complete.
+
+=== champ_features_all_three ===
+      competition_cost  comp_holding  comp_shortage  fc_mae  fc_wape  fc_bias  fc_pinball_0.833
+fold                                                                                           
+cv0           5,755.00      1,952.00       3,803.00    5.82     0.66    -4.90              2.94
+cv1           3,783.40      1,723.40       2,060.00    6.24     0.71    -5.82              3.18
+cv2           4,271.80      1,160.80       3,111.00    7.75     0.73    -7.57              4.01
+cv3           3,255.00      1,340.00       1,915.00    6.04     0.69    -5.83              3.00
+cv4           3,161.20      1,371.20       1,790.00    6.24     0.69    -5.89              3.10
+cv5           3,101.80      1,525.80       1,576.00    6.51     0.71    -6.05              3.29
+cv6           7,300.80      2,124.80       5,176.00   10.42     0.70    -9.82              5.36
+cv7           3,197.00      1,406.00       1,791.00    6.01     0.71    -5.63              3.08
+  MEAN  competition_cost = 4,228.25  (holding=1,575.50, shortage=2,652.75)
+  MEAN  forecast MAE=6.88  WAPE=0.701  bias=-6.44  pinball@0.833=3.495
+  VAL   competition_cost = 2,532.60  (holding=1,656.60, shortage=876.00)
+  VAL   forecast MAE=5.25  WAPE=0.672  bias=-4.83  pinball@0.833=2.640
+[champ_features_all_three] wall-time: 853.5s
+
+=== FEATURE SWEEP SUMMARY ===
+variant                      cv        val
+only_categorical       4,191.30   2,615.60
+champion_baseline      4,215.60   2,626.60
+only_intermittency     4,218.00   2,625.00
+all_three              4,228.25   2,532.60
+only_hierarchical      4,230.62   2,566.40

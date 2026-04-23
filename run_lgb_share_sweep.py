@@ -70,6 +70,9 @@ class DiverseLGBShareCostAwarePolicy(DiverseCostAwarePolicy):
             master=self.master, random_state=self.random_state,
             censoring_strategy=self.censoring_strategy, n_variants=self.n_variants,
             recency_decay=self.recency_decay,
+            hierarchical_features=self.hierarchical_features,
+            categorical_features=self.categorical_features,
+            intermittency_features=self.intermittency_features,
         )
         _log(f"fitting 5-model forecaster (lgb_share={self.lgb_share:.2f})...")
         self._forecaster.fit(sales_hist, in_stock)
@@ -111,6 +114,9 @@ class DiverseLGBShareCostAwarePolicy(DiverseCostAwarePolicy):
             master=self.master, random_state=self.random_state,
             censoring_strategy=self.censoring_strategy, n_variants=self.n_variants,
             recency_decay=self.recency_decay,
+            hierarchical_features=self.hierarchical_features,
+            categorical_features=self.categorical_features,
+            intermittency_features=self.intermittency_features,
         )
         bt.fit(train, bt_is)
         bt_per = bt.predict_models(horizon=W)

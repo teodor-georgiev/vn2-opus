@@ -1,18 +1,18 @@
 {
-  "description": "Diverse 5-model + cost-aware ordering + per-demand-bin multipliers + LGB-heavy weighting (lgb_share=0.90). Beats benchmark by 25.5%, beats Bartosz #1 by 14.2%.",
-  "timestamp": "2026-04-23T22:15",
-  "sacred_cost_seed42": 3227.8,
-  "sacred_mean_3seeds": 3230.27,
-  "sacred_std_3seeds": 5.9,
-  "sacred_min_3seeds": 3226.0,
+  "description": "Diverse 5-model + LGB-heavy (0.90) + bin-aware + categorical master features. Beats benchmark by 25.7%, beats Bartosz #1 by 14.5%.",
+  "timestamp": "2026-04-24T02:15",
+  "sacred_cost_seed42": 3218.8,
+  "sacred_mean_3seeds": 3211.2,
+  "sacred_std_3seeds": 14.4,
+  "sacred_min_3seeds": 3194.6,
   "setup_cost_fixed": 913.8,
-  "vs_benchmark_4334_pct": -25.5,
-  "vs_bartosz_1_3763_pct": -14.2,
-  "vs_matias_2_3765_pct": -14.3,
-  "vs_bartosz_rl_3582_pct": -9.9,
-  "cv_8fold_mean": 4215.6,
-  "val_cost": 2626.6,
-  "selection": "8-fold CV winner from lgb_share sweep, CV-rule selected (VAL +15 worse; we trusted CV based on this session pattern), verified across 3 seeds (std 5.9)",
+  "vs_benchmark_4334_pct": -25.7,
+  "vs_bartosz_1_3763_pct": -14.5,
+  "vs_matias_2_3765_pct": -14.5,
+  "vs_bartosz_rl_3582_pct": -10.1,
+  "cv_8fold_mean": 4191.3,
+  "val_cost": 2615.6,
+  "selection": "8-fold CV winner from feature-flag sweep (categorical master cols enabled), CV-VAL both improved vs prior champion, verified across 3 seeds",
   "policy_class": "DiverseLGBShareCostAwarePolicy",
   "policy_params": {
     "lgb_share": 0.9,
@@ -26,13 +26,10 @@
     "rmse_horizons": 1,
     "censoring_strategy": "mean_impute",
     "random_state": 42,
-    "n_variants": 5
-  },
-  "ensemble_weighting": {
-    "lgb_total": 0.9,
-    "cb_total": 0.1,
-    "each_lgb_weight": 0.3,
-    "each_cb_weight": 0.05
+    "n_variants": 5,
+    "hierarchical_features": false,
+    "categorical_features": true,
+    "intermittency_features": false
   },
   "session_progression": {
     "start_LGB_CB_cov1.05": 3581,
@@ -41,6 +38,7 @@
     "diverse5_alpha0.70": 3311.0,
     "diverse5_optuna": 3255.2,
     "diverse5_bin_aware_optuna": 3251.6,
-    "diverse5_lgbshare_0.90": 3227.8
+    "diverse5_lgbshare_0.90": 3227.8,
+    "diverse5_plus_categorical": 3218.8
   }
 }
