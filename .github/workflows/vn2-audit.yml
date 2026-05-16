@@ -1,0 +1,86 @@
+name: VN2 audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode: smoke validates mechanics/submissions; full also runs sacred + generates submissions"
+        required: true
+        default: smoke
+        type: choice
+        options:
+          - smoke
+          - full
+      python-version:
+        description: "Python version"
+        required: true
+        default: "3.11"
+        type: choice
+        options:
+          - "3.10"
+          - "3.11"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ inputs.python-version }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas numpy scipy scikit-learn numba lightgbm catboost mlforecast statsforecast joblib optuna
+
+      - name: Show environment
+        run: |
+          python --version
+          python - <<'PY'
+          import importlib
+          for name in ["pandas", "numpy", "lightgbm", "catboost", "mlforecast", "statsforecast", "numba"]:
+              mod = importlib.import_module(name)
+              print(f"{name}={getattr(mod, '__version__', 'unknown')}")
+          PY
+
+      - name: Audit competition mechanics
+        run: python scripts/audit_competition_rules.py
+
+      - name: Validate committed submissions if present
+        run: |
+          if [ -d submissions ] && [ -f submissions/round_1.csv ]; then
+            python scripts/validate_submissions.py --submission-dir submissions
+          else
+            echo "No committed submissions/round_1.csv found; skipping committed submission validation."
+          fi
+
+      - name: Run sacred solution and generate submissions
+        if: ${{ inputs.mode == 'full' }}
+        run: |
+          mkdir -p audit_artifacts
+          python run_costaware_sacred.py | tee audit_artifacts/run_costaware_sacred.log
+          python run_make_submissions.py | tee audit_artifacts/run_make_submissions.log
+          python scripts/validate_submissions.py --submission-dir submissions | tee audit_artifacts/validate_submissions.log
+
+      - name: Capture git and artifact hashes
+        if: ${{ inputs.mode == 'full' }}
+        run: |
+          git rev-parse HEAD | tee audit_artifacts/git_sha.txt
+          sha256sum submissions/round_*.csv | tee audit_artifacts/submission_sha256.txt
+
+      - name: Upload audit artifacts
+        if: ${{ inputs.mode == 'full' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: vn2-audit-${{ github.sha }}
+          path: |
+            audit_artifacts/
+            submissions/round_*.csv
+          if-no-files-found: error
