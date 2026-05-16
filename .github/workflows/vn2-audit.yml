@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Run mode: smoke validates mechanics/submissions; full also runs sacred + generates submissions"
+        description: "Run mode: smoke validates mechanics/submissions; full runs canonical final policy + generates submissions"
         required: true
         default: smoke
         type: choice
@@ -61,12 +61,11 @@ jobs:
             echo "No committed submissions/round_1.csv found; skipping committed submission validation."
           fi
 
-      - name: Run sacred solution and generate submissions
+      - name: Run canonical final policy and generate submissions
         if: ${{ inputs.mode == 'full' }}
         run: |
           mkdir -p audit_artifacts
-          python run_costaware_sacred.py | tee audit_artifacts/run_costaware_sacred.log
-          python run_make_submissions.py | tee audit_artifacts/run_make_submissions.log
+          python scripts/run_final_audit.py --write-submissions --submission-dir submissions | tee audit_artifacts/run_final_audit.log
           python scripts/validate_submissions.py --submission-dir submissions | tee audit_artifacts/validate_submissions.log
 
       - name: Capture git and artifact hashes
