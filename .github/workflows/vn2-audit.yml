@@ -1,6 +1,17 @@
 name: VN2 audit
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/vn2-audit.yml"
+      - "scripts/audit_competition_rules.py"
+      - "scripts/validate_submissions.py"
+      - "scripts/run_final_audit.py"
+      - "best_winner.json"
+      - "simulation.py"
+      - "submissions/**"
   workflow_dispatch:
     inputs:
       mode:
@@ -24,6 +35,9 @@ jobs:
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    env:
+      AUDIT_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'smoke' }}
+      AUDIT_PYTHON_VERSION: ${{ github.event_name == 'workflow_dispatch' && inputs.python-version || '3.11' }}
 
     steps:
       - name: Check out repository
@@ -32,7 +46,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ inputs.python-version }}
+          python-version: ${{ env.AUDIT_PYTHON_VERSION }}
           cache: pip
 
       - name: Install dependencies
@@ -42,6 +56,7 @@ jobs:
 
       - name: Show environment
         run: |
+          echo "AUDIT_MODE=${AUDIT_MODE}"
           python --version
           python - <<'PY'
           import importlib
@@ -62,20 +77,20 @@ jobs:
           fi
 
       - name: Run canonical final policy and generate submissions
-        if: ${{ inputs.mode == 'full' }}
+        if: ${{ env.AUDIT_MODE == 'full' }}
         run: |
           mkdir -p audit_artifacts
           python scripts/run_final_audit.py --write-submissions --submission-dir submissions | tee audit_artifacts/run_final_audit.log
           python scripts/validate_submissions.py --submission-dir submissions | tee audit_artifacts/validate_submissions.log
 
       - name: Capture git and artifact hashes
-        if: ${{ inputs.mode == 'full' }}
+        if: ${{ env.AUDIT_MODE == 'full' }}
         run: |
           git rev-parse HEAD | tee audit_artifacts/git_sha.txt
           sha256sum submissions/round_*.csv | tee audit_artifacts/submission_sha256.txt
 
       - name: Upload audit artifacts
-        if: ${{ inputs.mode == 'full' }}
+        if: ${{ env.AUDIT_MODE == 'full' }}
         uses: actions/upload-artifact@v4
         with:
           name: vn2-audit-${{ github.sha }}
