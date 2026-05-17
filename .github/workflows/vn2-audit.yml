@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/vn2-audit.yml"
       - "scripts/audit_competition_rules.py"
+      - "scripts/audit_competition_timing.py"
       - "scripts/validate_submissions.py"
       - "scripts/run_final_audit.py"
       - "best_winner.json"
@@ -67,6 +68,9 @@ jobs:
 
       - name: Audit competition mechanics
         run: python scripts/audit_competition_rules.py
+
+      - name: Audit official order timing
+        run: python scripts/audit_competition_timing.py
 
       - name: Validate committed submissions if present
         run: |
