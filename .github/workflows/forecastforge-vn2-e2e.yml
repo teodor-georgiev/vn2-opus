@@ -27,7 +27,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
 
       - name: Install ForecastForge branch
         run: |
@@ -55,16 +54,28 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import csv
           import json
           import os
-          import pandas as pd
 
           summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
           lines = ["# ForecastForge VN2 end-to-end", ""]
           csv_path = Path("benchmark_output/benchmark_results.csv")
           if csv_path.exists():
-              frame = pd.read_csv(csv_path)
-              lines.extend(["## Benchmark scorecard", "", "```text", frame.to_string(index=False), "```", ""])
+              with csv_path.open(newline="", encoding="utf-8") as handle:
+                  rows = list(csv.DictReader(handle))
+              lines.extend(["## Benchmark scorecard", ""])
+              for row in rows:
+                  lines.extend([
+                      f"- Dataset: `{row.get('dataset')}`",
+                      f"- Execution: `{row.get('execution_mode')}`",
+                      f"- Best model: `{row.get('best_accuracy_model')}`",
+                      f"- Holdout WAPE: `{row.get('holdout_wape')}`",
+                      f"- Best naive: `{row.get('best_naive_model')}`",
+                      f"- Improvement vs naive: `{row.get('improvement_vs_best_naive')}`",
+                      f"- Pipeline seconds: `{row.get('pipeline_seconds')}`",
+                      "",
+                  ])
           else:
               lines.extend(["Benchmark scorecard was not produced.", ""])
 
