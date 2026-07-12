@@ -3,6 +3,8 @@ name: ForecastForge VN2 End-to-End
 on:
   push:
     branches: ["agent/forecastforge-vn2-e2e"]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -54,14 +56,15 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import json
+          import os
           import pandas as pd
 
-          summary = Path("$GITHUB_STEP_SUMMARY")
+          summary = Path(os.environ["GITHUB_STEP_SUMMARY"])
           lines = ["# ForecastForge VN2 end-to-end", ""]
           csv_path = Path("benchmark_output/benchmark_results.csv")
           if csv_path.exists():
               frame = pd.read_csv(csv_path)
-              lines.extend(["## Benchmark scorecard", "", frame.to_markdown(index=False), ""])
+              lines.extend(["## Benchmark scorecard", "", "```text", frame.to_string(index=False), "```", ""])
           else:
               lines.extend(["Benchmark scorecard was not produced.", ""])
 
