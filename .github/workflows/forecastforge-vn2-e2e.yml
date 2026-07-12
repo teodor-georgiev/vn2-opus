@@ -1,0 +1,93 @@
+name: ForecastForge VN2 End-to-End
+
+on:
+  push:
+    branches: ["agent/forecastforge-vn2-e2e"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      PYTHONUNBUFFERED: "1"
+      OMP_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+      MKL_NUM_THREADS: "2"
+    steps:
+      - name: Checkout VN2
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install ForecastForge branch
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "git+https://github.com/teodor-georgiev/ForecastForge.git@agent/forecastforge-mvp"
+          forecastforge --help
+
+      - name: Run full VN2 benchmark
+        shell: bash
+        run: |
+          set -o pipefail
+          forecastforge benchmark \
+            --vn2 . \
+            --profile fast \
+            --windows 2 \
+            --jobs -1 \
+            --parallel \
+            --family-workers 3 \
+            --output benchmark_output \
+            2>&1 | tee forecastforge-vn2.log
+
+      - name: Write benchmark summary
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          import pandas as pd
+
+          summary = Path("$GITHUB_STEP_SUMMARY")
+          lines = ["# ForecastForge VN2 end-to-end", ""]
+          csv_path = Path("benchmark_output/benchmark_results.csv")
+          if csv_path.exists():
+              frame = pd.read_csv(csv_path)
+              lines.extend(["## Benchmark scorecard", "", frame.to_markdown(index=False), ""])
+          else:
+              lines.extend(["Benchmark scorecard was not produced.", ""])
+
+          run_results = sorted(Path("benchmark_output").glob("**/run_result.json"))
+          for path in run_results:
+              payload = json.loads(path.read_text())
+              lines.extend([
+                  f"## {path.parent.name}",
+                  "",
+                  f"- Best accuracy model: `{payload.get('best_model')}`",
+                  f"- Holdout WAPE: `{payload.get('best_holdout_wape')}`",
+                  f"- Best naive: `{payload.get('best_naive_model')}`",
+                  f"- Improvement vs naive: `{payload.get('improvement_vs_best_naive')}`",
+                  f"- Runtime seconds: `{payload.get('runtime_seconds')}`",
+                  "",
+              ])
+          summary.write_text("\n".join(lines), encoding="utf-8")
+          PY
+
+      - name: Upload VN2 benchmark outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: forecastforge-vn2-e2e
+          path: |
+            benchmark_output/
+            forecastforge-vn2.log
+          if-no-files-found: warn
+          retention-days: 30
