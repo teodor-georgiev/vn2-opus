@@ -7,6 +7,12 @@ on:
     paths:
       - ".github/workflows/chatgpt-vn2-8w-wape-probe.yml"
       - "experiments/vn2_8w_wape_probe.py"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/chatgpt-vn2-8w-wape-probe.yml"
+      - "experiments/vn2_8w_wape_probe.py"
 
 jobs:
   benchmark:
